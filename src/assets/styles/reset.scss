@@ -1,0 +1,27 @@
+button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    &:active{
+        border-style: none;
+    }
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    &:active{
+        color: #000000;
+    }
+}
+p{
+    line-height: 1.56;
+}
+img,
+svg{
+    width: 100%;
+    height: 100%;
+}
