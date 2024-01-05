@@ -1,6 +1,7 @@
+@import './../../../../../assets/styles/link';
 nav {
   width: 1280px;
-  height: 70px;
+  height: 90px;
   font-family: 'Lexend', sans-serif;
 
   .logo {
@@ -10,10 +11,73 @@ nav {
         display: none;
       }
     }
+    div {
+      a {
+        width: 48px;
+        height: 48px;
+        border: 1px solid $black;
+        border-radius: 15px;
+        transition: all ease-in-out 0.3s;
+        &:hover {
+          background-color: $green;
+        }
+        img {
+          width: initial;
+          height: initial;
+        }
+      }
+    }
   }
 
   .list {
     font-size: 16px;
     font-weight: 400;
+    li {
+      padding: 11px 13px;
+      transition: all ease-in-out 0.3s;
+      border: 1px solid transparent;
+      // border-radius: 40px;
+      &:hover {
+        background-color: $green;
+        border-radius: 50% 20% / 10% 40%;
+      }
+
+      a {
+        position: relative;
+        color: $gray;
+
+        &:before {
+          position: absolute;
+          content: ' ';
+          width: 4px;
+          top: 8px;
+          right: -31px;
+          height: 4px;
+          border-radius: 50%;
+          background: #a555e6;
+        }
+
+        &:hover {
+          color: $black;
+        }
+      }
+    }
+  }
+  .talk {
+    .cantact {
+      a {
+        font-size: 18px;
+        width: 195px;
+        height: 60px;
+        background-color: $green;
+        border-radius: 40px;
+        transition: all ease-in-out 0.3s;
+        &:hover {
+          color: $white;
+          background-color: $dark-green;
+          border-radius: 50% 20% / 10% 40%;
+        }
+      }
+    }
   }
 }
