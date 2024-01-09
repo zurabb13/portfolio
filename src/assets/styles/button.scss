@@ -1,0 +1,16 @@
+.btn-green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 195px;
+  height: 60px;
+  background-color: $green;
+  border-radius: 40px;
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    color: $white;
+    background-color: $dark-green;
+    border-radius: 50% 20% / 10% 40%;
+  }
+}

@@ -64,20 +64,20 @@ nav {
     }
   }
   .talk {
-    .cantact {
-      a {
-        font-size: 18px;
-        width: 195px;
-        height: 60px;
-        background-color: $green;
-        border-radius: 40px;
-        transition: all ease-in-out 0.3s;
-        &:hover {
-          color: $white;
-          background-color: $dark-green;
-          border-radius: 50% 20% / 10% 40%;
-        }
-      }
-    }
+    // .cantact {
+    //   a {
+    //     font-size: 18px;
+    //     width: 195px;
+    //     height: 60px;
+    //     background-color: $green;
+    //     border-radius: 40px;
+    //     transition: all ease-in-out 0.3s;
+    //     &:hover {
+    //       color: $white;
+    //       background-color: $dark-green;
+    //       border-radius: 50% 20% / 10% 40%;
+    //     }
+    //   }
+    // }
   }
 }
