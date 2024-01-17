@@ -1,0 +1,36 @@
+<div></div>
+<div class="bg-white bg items-center">
+  <div class="flex justify-center flex-col items-center">
+    <span>about me👋</span>
+    <h2>Lorem ipsum dolor sit amet, consectetur adip</h2>
+  </div>
+  <div class="flex gap-5">
+    <div>
+      <div class="inp">My Mission</div>
+      <p>
+        s a digital designer, I specialize in creating unique visual identities
+        for digital products. I believe that a catchy design starts with common
+        values, open communication, and respect for your audience. Capitalize on
+        low hanging fruit to identify a ballpark value added activity
+      </p>
+      <p>
+        Beta test survival. Phosfluorescently engage worldwide methodologies
+        Web-enabled technology. Interactively coordinate proactive commerce via
+        process-centric "outside the box" thinking. Completely
+      </p>
+    </div>
+    <div class="flex flex-col gap-4">
+      <div class="inp">My Skill</div>
+      <ul class="flex flex-wrap gap-5">
+        @for (item of items; track $index) {
+          <li class="flex flex-col justify-center items-center gap-1">
+            <span class="flex justify-center items-center">
+              <img [src]="item.imageUrl" alt="" />
+            </span>
+            <p>{{ item.name }}</p>
+          </li>
+        }
+      </ul>
+    </div>
+  </div>
+</div>
