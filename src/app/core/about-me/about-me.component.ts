@@ -70,4 +70,36 @@ export class AboutMeComponent {
     { name: 'Eslint', url: '', imageUrl: './assets/img/svg/logo/eslint.svg' },
     { name: 'Chart', url: '', imageUrl: './assets/img/svg/logo/chart.svg' },
   ];
+  about = [
+    {
+      name: 'Frontend Developer',
+      img: './assets/img/svg/portal-1.svg',
+      img2: './assets/img/svg/portal-2.svg',
+    },
+    {
+      name: 'UI/UX Design',
+      img: './assets/img/svg/portal-1.svg',
+      img2: './assets/img/svg/portal-2.svg',
+    },
+    {
+      name: 'E-Commerce',
+      img: './assets/img/svg/portal-1.svg',
+      img2: './assets/img/svg/portal-2.svg',
+    },
+    {
+      name: 'Responsive Design',
+      img: './assets/img/svg/portal-1.svg',
+      img2: './assets/img/svg/portal-2.svg',
+    },
+    {
+      name: 'Version Control',
+      img: './assets/img/svg/portal-1.svg',
+      img2: './assets/img/svg/portal-2.svg',
+    },
+    {
+      name: 'Version Control',
+      img: './assets/img/svg/portal-1.svg',
+      img2: './assets/img/svg/portal-2.svg',
+    },
+  ];
 }
