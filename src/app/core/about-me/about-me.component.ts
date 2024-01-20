@@ -1,5 +1,6 @@
-import { CommonModule, NgFor } from '@angular/common';
+import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 interface Item {
   name: string;
@@ -9,7 +10,7 @@ interface Item {
 @Component({
   selector: 'app-about-me',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, MatTooltipModule],
   templateUrl: './about-me.component.html',
   styleUrl: './about-me.component.scss',
 })
@@ -27,6 +28,8 @@ export class AboutMeComponent {
       imageUrl: './assets/img/svg/logo/javascript.svg',
     },
     { name: 'React', url: '', imageUrl: './assets/img/svg/logo/react.svg' },
+    { name: 'RXJS', url: '', imageUrl: './assets/img/svg/logo/rxjs.svg' },
+
     { name: 'NodeJS', url: '', imageUrl: './assets/img/svg/logo/nodejs.svg' },
     { name: 'NestJS', url: '', imageUrl: './assets/img/svg/logo/nestjs.svg' },
     { name: 'MongoDB', url: '', imageUrl: './assets/img/svg/logo/mongodb.svg' },
@@ -41,7 +44,7 @@ export class AboutMeComponent {
     { name: 'Scss', url: '', imageUrl: './assets/img/svg/logo/scss.svg' },
 
     {
-      name: 'Material',
+      name: 'Angular Material',
       url: '',
       imageUrl: './assets/img/svg/logo/angular-material.svg',
     },

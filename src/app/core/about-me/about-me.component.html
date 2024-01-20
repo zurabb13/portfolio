@@ -5,6 +5,7 @@
         <h4>{{ item.name }}</h4>
         <!-- <h4>{{ item.name }}</h4> -->
         <img [src]="item.img" alt="" />
+        <!-- <button matTooltip="Info about the action">acction</button> -->
       }
     </div>
   </div>
@@ -42,11 +43,13 @@
       <div class="inp">My Skill</div>
       <ul class="flex flex-wrap gap-5">
         @for (item of items; track $index) {
-          <li class="flex flex-col justify-center items-center gap-1">
+          <li
+            [matTooltip]="item.name"
+            class="flex flex-col justify-center items-center gap-1">
             <span class="flex justify-center items-center">
               <img [src]="item.imageUrl" alt="" />
             </span>
-            <p>{{ item.name }}</p>
+            <!-- <p>{{ item.name }}</p> -->
           </li>
         }
       </ul>
