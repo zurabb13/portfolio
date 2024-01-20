@@ -1,7 +1,7 @@
 import { NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { MatTooltipModule } from '@angular/material/tooltip';
-
+import { NgOptimizedImage } from '@angular/common';
 interface Item {
   name: string;
   url: string;
@@ -10,7 +10,7 @@ interface Item {
 @Component({
   selector: 'app-about-me',
   standalone: true,
-  imports: [NgFor, MatTooltipModule],
+  imports: [NgFor, MatTooltipModule, NgOptimizedImage],
   templateUrl: './about-me.component.html',
   styleUrl: './about-me.component.scss',
 })

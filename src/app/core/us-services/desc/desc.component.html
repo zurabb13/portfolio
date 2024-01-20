@@ -1,0 +1,21 @@
+<div class="desc">
+  @for (item of desc; track $index) {
+    <hr />
+    <div class="dt">
+      <div class="cont">
+        <h3>{{ item.title }}</h3>
+        <p>
+          {{ item.description }}
+        </p>
+        <div class="flex persent">
+          <span class="hide">+</span>
+          <span class="open">–</span>
+        </div>
+      </div>
+      <div class="img">
+        <img [src]="item.img" [alt]="item.title" />
+      </div>
+    </div>
+  }
+</div>
+<hr />
