@@ -22,6 +22,7 @@
     }
     .img {
       position: absolute;
+      display: none;
       top: -50%;
       left: 45%;
       opacity: 0;
@@ -67,6 +68,7 @@
         }
       }
       .img {
+        display: block;
         opacity: 1;
       }
       .persent {
