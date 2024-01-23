@@ -1,7 +1,7 @@
-<footer class="w-full h-80 bg-slate-200 pt-20">
+<footer class="w-full h-80 pt-20 footer">
   <div class="flex justify-center gap-9 w-auto mt-30">
-    <div class="max-w-72">
-      <ul>
+    <div class="dit">
+      <ul class="flex flex-col gap-3 ul">
         <li>
           <img src="./assets/img/png/logo-white.png" alt="" />
         </li>
@@ -9,9 +9,17 @@
           <span>Follow Me</span>
         </li>
       </ul>
-      <ul></ul>
+      <ul class="flex social gap-3">
+        @for (item of contact; track $index) {
+          <li class="flex justify-center items-center">
+            <a [href]="item.url" target="_blank">
+              <img [src]="item.img" [alt]="item.title" />
+            </a>
+          </li>
+        }
+      </ul>
     </div>
-    <div class="max-w-72">
+    <div class="quick-link">
       <h5>Quick Link</h5>
       <ul>
         <li>
@@ -28,7 +36,7 @@
         </li>
       </ul>
     </div>
-    <div class="max-w-72">
+    <div class="quick-link">
       <h5 class="mb-7">Services</h5>
       <ul>
         <li><a href="">Branding Design</a></li>
@@ -37,13 +45,17 @@
         <li><a href="">Web Development</a></li>
       </ul>
     </div>
-    <div class="max-w-72">
+    <div class="quick-link">
       <h5>Newsletter</h5>
       <span
         >Subscribe to newsletter to get update tips & tutorial in your
         inbox</span
       >
-      <input type="text" />
+      <input type="text" placeholder="enter your address" />
     </div>
+  </div>
+  <hr />
+  <div class="flex justify-center items-center copyright">
+    <span>© Copyright {{ date | date: 'yyyy' }} by Baram</span>
   </div>
 </footer>

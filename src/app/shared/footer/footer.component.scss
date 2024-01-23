@@ -1,22 +1,108 @@
-h5 {
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 34px;
-}
-span {
-  font-size: 18px;
-  color: #261d48;
-  font-weight: 500;
-}
-li {
-  a {
-    color: #595959;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Lexend', sans-serif;
-    transition: 0.4s;
+.footer {
+  background-color: #f4f4f4;
+  height: auto;
+  .dit {
+    .ul {
+      margin-bottom: 30px;
+      li {
+        img {
+          width: 100px;
+        }
+        span {
+          font-size: 18px;
+          font-weight: bold;
+          color: #261d48;
+          font-family: sans-serif;
+        }
+      }
+    }
+    .social {
+      li {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        transition: 0.4s;
+        &:hover {
+          background-color: #4dffaf;
+          border-color: transparent;
+          color: #261d48;
+          transform: translateY(-5px);
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
   }
-}
-.service {
-  max-width: 305px;
+  .quick-link {
+    width: 258px;
+
+    color: #595959;
+    h5 {
+      font-weight: 600;
+      font-size: 26px;
+      margin-bottom: 20px;
+      line-height: 34px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      li {
+        a {
+          color: #595959;
+          font-size: 16px;
+          font-weight: 400;
+          font-family: sans-serif;
+          transform: translateY(0);
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+    span {
+      color: inherit;
+      margin-bottom: 20px !important;
+      font-size: 18px;
+    }
+    input {
+      margin-top: 20px;
+      height: 55px;
+      width: 260px;
+      line-height: 46px;
+      padding: 0 20px;
+      font-size: 14px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      background: transparent;
+      font-size: 16px;
+      font-family: sans-serif;
+      padding: 0 30px;
+      line-height: 70px;
+      transition: all 0.3s ease-in-out;
+      border-radius: 60px;
+
+      &:active,
+      &:focus {
+        border-radius: 10px / 30px;
+        outline: none;
+        border: 2px solid #4dffaf;
+      }
+    }
+    &:last-child {
+      width: 300px;
+    }
+  }
+  .copyright {
+    max-width: 1280px;
+    border-top: 1px solid #7e7c7c !important;
+    margin: 30px auto;
+    font-size: 16px;
+    color: #595959;
+    padding-top: 20px;
+  }
 }

@@ -6,6 +6,7 @@ import { UsServicesComponent } from '../../us-services/us-services.component';
 import { ProjectComponent } from '../../project/project.component';
 import { TestimonialComponent } from '../../testimonial/testimonial.component';
 import { ContactComponent } from '../../contact/contact.component';
+import { FooterComponent } from '../../../shared/footer/footer.component';
 
 const COMPONENTS = [
   BannerComponent,
@@ -15,6 +16,7 @@ const COMPONENTS = [
   ProjectComponent,
   TestimonialComponent,
   ContactComponent,
+  FooterComponent,
 ];
 @Component({
   selector: 'app-body',
