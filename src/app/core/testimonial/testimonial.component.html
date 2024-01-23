@@ -1,0 +1,41 @@
+<div class="w-full bg-white testimonial">
+  <div class="container">
+    <div>
+      <span class="span">Testimonial 👍 </span>
+      <h3>
+        What The Clients Say About<br />
+        <span class="color"> My Work</span>
+      </h3>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        @for (item of info; track $index) {
+          <div class="swiper-slide">
+            <div class="flex flex-row sw">
+              <img [src]="item.img" alt="" />
+              <div class="info flex justify-center items-center flex-col gap-4">
+                <span class="icon">
+                  <img src="assets/img/svg/double-quotes.svg" alt=""
+                /></span>
+                <p>{{ item.description }}</p>
+                <div class="user">
+                  <h6>{{ item.name }}</h6>
+                  <span>{{ item.position }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+    <div class="swiper partners">
+      <div class="swiper-wrapper">
+        @for (partners of partners; track $index) {
+          <div class="swiper-slide par">
+            <img class="" [src]="partners.img" [alt]="partners.title" />
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>

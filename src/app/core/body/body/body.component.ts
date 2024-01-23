@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { AboutMeComponent } from '../../about-me/about-me.component';
 import { UsServicesComponent } from '../../us-services/us-services.component';
 import { ProjectComponent } from '../../project/project.component';
+import { TestimonialComponent } from '../../testimonial/testimonial.component';
 
 const COMPONENTS = [
   BannerComponent,
@@ -11,6 +12,7 @@ const COMPONENTS = [
   AboutMeComponent,
   UsServicesComponent,
   ProjectComponent,
+  TestimonialComponent,
 ];
 @Component({
   selector: 'app-body',

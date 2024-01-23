@@ -1,0 +1,104 @@
+.testimonial {
+  padding: 120px 0;
+  .container {
+    width: 1280px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    .span {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      color: #595959;
+      display: block;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 75px;
+      .color {
+        color: #a555e6;
+      }
+    }
+    .sw {
+      gap: 70px;
+      margin-bottom: 100px;
+      img {
+        max-width: 360px;
+        border-radius: 200px;
+      }
+      .info {
+        text-align: left;
+        max-width: 630px;
+        padding-top: 40px;
+
+        p {
+          font-size: 30px;
+          color: #595959;
+        }
+        .user {
+          margin-right: auto;
+
+          h6 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+
+            color: #261d48;
+            position: relative;
+            &::before {
+              position: absolute;
+              content: '';
+              top: -10px;
+              left: 0;
+              height: 1px;
+              width: 306px;
+              background: rgba(0, 0, 0, 0.2);
+            }
+          }
+          span {
+            font-size: 16px;
+            color: #595959;
+          }
+        }
+      }
+    }
+    .icon {
+      margin-right: auto;
+      width: 58px;
+      height: 58px;
+      line-height: 58px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #a555e6;
+      display: inline-block;
+      color: #ffffff;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
+.partners {
+  // margin-top: 40px;
+  .par {
+    img {
+      height: 30px;
+      width: inherit;
+      object-fit: contain;
+      opacity: 0.5;
+      transition: 0.3s;
+
+      &:hover {
+        cursor: pointer;
+        opacity: 1;
+      }
+    }
+  }
+}
