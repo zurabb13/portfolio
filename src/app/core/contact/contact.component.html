@@ -1,4 +1,4 @@
-<div class="w-full contact">
+<div class="contact">
   <div class="con flex flex-row justify-center items-center">
     <div class="">
       <div class="info">
@@ -12,7 +12,7 @@
         @for (cont of contact; track $index) {
           <li class="flex flex-row gap-5">
             <div class="br">
-              <img [src]="cont.img" alt="" />
+              <img [src]="cont.img" [alt]="cont.type" />
             </div>
             <div class="flex flex-col gap-5">
               <span>{{ cont.type }} </span>

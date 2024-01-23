@@ -6,7 +6,8 @@
 
   .lns {
     position: absolute;
-    width: 100%;
+    left: -30px;
+    width: 105%;
     height: 100%;
     transform: rotate(3deg);
     background-color: #4dffaf;
@@ -39,10 +40,11 @@
     gap: 40px;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 110%;
     transform: rotate(-3deg);
     background-color: #573afc;
     height: 100%;
+    left: -30px;
     z-index: 1;
     color: white;
     h4 {

@@ -1,5 +1,7 @@
 .contact {
-  background: url('../../../assets/img/bg/contact.jpg') no-repeat center;
+  width: 100% !important;
+  background: url('../../../assets/img/bg/contact.jpg') no-repeat center !important;
+  background-size: cover;
   padding: 120px;
   .con {
     gap: 50px;

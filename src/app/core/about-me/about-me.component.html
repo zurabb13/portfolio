@@ -4,7 +4,7 @@
       @for (item of about; track $index) {
         <h4>{{ item.name }}</h4>
         <!-- <h4>{{ item.name }}</h4> -->
-        <img [src]="item.img" alt="" />
+        <img [src]="item.img" [alt]="item.name" />
         <!-- <button matTooltip="Info about the action">acction</button> -->
       }
     </div>
@@ -12,7 +12,7 @@
   <div class="rns">
     @for (item of about; track $index) {
       <h4>{{ item.name }}</h4>
-      <img [src]="item.img2" alt="" />
+      <img [src]="item.img2" [alt]="item.name" />
     }
   </div>
 </div>
@@ -42,12 +42,12 @@
     <div class="flex flex-col gap-4">
       <div class="inp">My Skill</div>
       <ul class="flex flex-wrap gap-5">
-        @for (item of items; track $index) {
+        @for (item of item; track $index) {
           <li
             [matTooltip]="item.name"
             class="flex flex-col justify-center items-center gap-1">
             <span class="flex justify-center items-center">
-              <img [src]="item.imageUrl" />
+              <img [src]="item.imageUrl" [alt]="item.name" />
             </span>
             <!-- <p>{{ item.name }}</p> -->
           </li>
