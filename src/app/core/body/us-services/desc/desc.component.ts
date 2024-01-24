@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
-import {
-  trigger,
-  state,
-  style,
-  animate,
-  transition,
-} from '@angular/animations';
-import { Desc } from '../../../modals/desk.modal';
+
 import { desc } from './desk';
+import { Desc } from '../../../../modals/desk.modal';
 @Component({
   selector: 'app-desc',
   standalone: true,

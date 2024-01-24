@@ -3,41 +3,23 @@
     <span>
       <img src="./assets/img/png/logo-white.png" alt="logo" />
     </span>
-    <div>
-      <a class="flex justify-center items-center">
-        <img src="./assets/img/svg/ham.svg" alt="list" />
-      </a>
-    </div>
+    <button class="flex justify-center items-center" (click)="openModal()">
+      <img src="./assets/img/svg/ham.svg" alt="list" />
+    </button>
+    <ng-template cdkPortal>
+      <app-list />
+    </ng-template>
   </div>
   <div class="gap-3">
     <ul class="flex gap-8 list">
-      <li>
-        <a>HOME</a>
-      </li>
-      <li>
-        <a>ABOUT</a>
-      </li>
-      <li>
-        <a>SERVICE</a>
-      </li>
-      <li>
-        <a>PORTFOLIO</a>
-      </li>
-      <li>
-        <a>BLOG</a>
-      </li>
-      <li>
-        <a>CONTACT</a>
-      </li>
+      @for (item of nav; track $index) {
+        <li>
+          <a>{{ item.listName }} </a>
+        </li>
+      }
     </ul>
   </div>
   <div class="flex flex-col talk">
-    <!-- <div>
-      <a href="">
-        <img src="" alt="" />
-      </a>
-    </div> -->
-
     <div class="flex items-center justify-center">
       <a href="" class="btn-green">
         <span>LET'S TALK</span>

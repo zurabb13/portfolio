@@ -2,7 +2,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { register } from 'swiper/element/bundle';
 import Swiper from 'swiper';
 import { info, partners } from './testimonial';
-import { Info, Partner } from '../../modals/testimonial.modal';
+import { Info, Partner } from '../../../modals/testimonial.modal';
 register();
 @Component({
   selector: 'app-testimonial',

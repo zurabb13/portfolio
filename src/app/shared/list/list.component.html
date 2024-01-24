@@ -1,0 +1,15 @@
+<div class="list">
+  <div class="info">
+    <div>
+      <img src="./assets/img/png/logo-white.png" alt="logo" />
+    </div>
+    <hr />
+    <ul class="flex justify-center items-start flex-col gap-3">
+      @for (item of burgerManu; track $index) {
+        <li>
+          <a>{{ item.listName }} </a>
+        </li>
+      }
+    </ul>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-import Contact from '../../modals/contact.modal';
+import Contact from '../../../modals/contact.modal';
 
 export const contact: Contact[] = [
   {

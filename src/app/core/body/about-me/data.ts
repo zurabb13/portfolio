@@ -1,4 +1,5 @@
-import Item, { abouts } from '../../modals/item.modal';
+import Item, { abouts } from '../../../modals/item.modal';
+
 export const items: Item[] = [
   { name: 'Angular', url: '', imageUrl: './assets/img/svg/logo/angular.svg' },
   {

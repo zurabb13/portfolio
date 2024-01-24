@@ -2,8 +2,9 @@ import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { NgOptimizedImage } from '@angular/common';
-import Item, { abouts } from '../../modals/item.modal';
+
 import { about, items } from './data';
+import Item, { abouts } from '../../../modals/item.modal';
 @Component({
   selector: 'app-about-me',
   standalone: true,

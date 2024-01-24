@@ -1,4 +1,4 @@
-import { Desc } from '../../../modals/desk.modal';
+import { Desc } from '../../../../modals/desk.modal';
 
 export const desc: Desc[] = [
   {

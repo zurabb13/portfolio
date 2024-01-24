@@ -1,4 +1,4 @@
-import { Info, Partner } from '../../modals/testimonial.modal';
+import { Info, Partner } from '../../../modals/testimonial.modal';
 
 export const info: Info[] = [
   {
