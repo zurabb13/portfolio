@@ -2,18 +2,28 @@
   <div class="lns">
     <div class="mmd">
       @for (item of about; track $index) {
-        <h4>{{ item.name }}</h4>
+        <ul>
+          <li>
+            <h4>{{ item.name }}</h4>
+            <img [src]="item.img" [alt]="item.name" />
+          </li>
+        </ul>
         <!-- <h4>{{ item.name }}</h4> -->
-        <img [src]="item.img" [alt]="item.name" />
         <!-- <button matTooltip="Info about the action">acction</button> -->
       }
     </div>
   </div>
-  <div class="rns">
-    @for (item of about; track $index) {
-      <h4>{{ item.name }}</h4>
-      <img [src]="item.img2" [alt]="item.name" />
-    }
+  <div class="amd">
+    <div class="rns">
+      @for (item of about; track $index) {
+        <ul>
+          <li>
+            <h4>{{ item.name }}</h4>
+            <img [src]="item.img2" [alt]="item.name" />
+          </li>
+        </ul>
+      }
+    </div>
   </div>
 </div>
 <div class="bg-white bg items-center">
