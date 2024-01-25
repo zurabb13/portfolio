@@ -3,6 +3,7 @@
   height: auto;
   .dit {
     .ul {
+      gap: 30px;
       margin-bottom: 30px;
       li {
         img {
@@ -60,7 +61,7 @@
           transform: translateY(0);
           transition: all 0.2s ease-in-out;
           &:hover {
-            color: black;
+            color: #4dffaf;
           }
         }
       }
@@ -106,5 +107,45 @@
     color: #595959;
     padding-top: 10px;
     height: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    padding: 60px 15px 15px 15px;
+    width: 100vw;
+    .mb {
+      flex-direction: column;
+      .dit {
+        .ul {
+          margin-bottom: 30px;
+          li {
+            img {
+              width: 100px;
+            }
+          }
+        }
+        .social {
+          li {
+            width: 35px;
+            height: 35px;
+            img {
+              width: 16px;
+              height: 16px;
+            }
+          }
+        }
+      }
+      .quick-link {
+        width: 258px;
+        h5 {
+          font-size: 22px;
+        }
+
+        input {
+          width: 340px;
+        }
+      }
+    }
   }
 }
