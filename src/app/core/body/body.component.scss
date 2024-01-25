@@ -4,3 +4,11 @@
   padding: 120px 0 !important;
   height: 700px;
 }
+
+@media screen and (max-width: 450px) {
+  .bgb {
+    width: 100vw;
+    height: 70%;
+    padding: 60px 0;
+  }
+}

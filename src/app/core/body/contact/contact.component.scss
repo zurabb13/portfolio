@@ -1,8 +1,11 @@
 .contact {
   width: 100% !important;
-  background: url('../../../../assets/img/bg/contact.jpg') no-repeat center !important;
+  background-image: url('../../../../assets/img/bg/contact.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 120px;
+  box-sizing: border-box;
   .con {
     gap: 50px;
     .info {
@@ -75,7 +78,7 @@
     }
     .form {
       background-color: white;
-      min-width: 450px;
+      width: 450px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -119,6 +122,74 @@
           border-radius: 10px / 30px;
           outline: none;
           border: 2px solid #4dffaf;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contact {
+    padding: 60px 15px;
+
+    .con {
+      gap: 0;
+      display: inline;
+      padding: 0 15px;
+      .md {
+        width: 100vw;
+        .info {
+          width: 363px;
+          margin: 0 auto;
+
+          h3 {
+            font-size: 32px;
+            line-height: 45px;
+
+            .color {
+              font-weight: 500;
+              font-size: inherit;
+              line-height: inherit;
+            }
+          }
+        }
+        ul {
+          margin: 0 auto;
+          gap: 15px;
+          li {
+            .br {
+              font-size: 24px;
+              transition: 0.4s;
+              img {
+                width: 30px;
+                height: 30px;
+              }
+            }
+            span {
+              font-size: 16px;
+              font-family: sans-serif;
+              line-height: 1;
+              color: rgb(155, 151, 151);
+            }
+            h5 {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .form {
+        margin-top: 20px;
+        width: 363px !important;
+        padding: 30px 25px 20px 25px;
+        span {
+          font-weight: 400;
+          font-size: 26px;
+          line-height: 34px;
+          margin-bottom: 20px;
+        }
+        input {
+          height: 50px;
+          color: #261d48;
         }
       }
     }

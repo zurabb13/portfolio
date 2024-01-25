@@ -7,8 +7,6 @@
       justify-content: center;
       flex-direction: column;
       height: 200px;
-      //   border-top: 1px solid rgb(61, 56, 56);
-      //   border-bottom: 1px solid rgb(61, 56, 56);
       position: relative;
       h3 {
         font-size: 50px;
@@ -78,6 +76,23 @@
         .open {
           display: block;
         }
+      }
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .desc {
+    .dt {
+      .cont {
+        h3 {
+          font-size: 30px;
+        }
+        .persent {
+          display: none;
+        }
+      }
+      .img {
+        display: none !important;
       }
     }
   }

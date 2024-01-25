@@ -27,6 +27,16 @@ export class TestimonialComponent implements AfterViewInit, OnInit {
     const partners = new Swiper('.partners', {
       slidesPerView: 5,
       loop: true,
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          loop: true,
+        },
+        900: {
+          slidesPerView: 5,
+          loop: true,
+        },
+      },
     });
   }
 }

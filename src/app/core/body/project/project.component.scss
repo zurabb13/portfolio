@@ -1,5 +1,5 @@
 .project {
-  padding: 120px 0 !important;
+  padding: 120px 0;
   background: url('./../../../../assets/img/bg/portfolio-bg.jpg') center
     no-repeat;
   background-size: cover;
@@ -38,5 +38,20 @@
     margin: 0 auto;
     padding-top: 20px;
     flex: 0 0 auto !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .project {
+    padding: 60px 0;
+    .ab {
+      h3 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+    .port {
+      width: 100vw;
+    }
   }
 }

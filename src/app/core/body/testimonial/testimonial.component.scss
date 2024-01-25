@@ -102,3 +102,52 @@
     }
   }
 }
+@media screen and (max-width: 450px) {
+  .testimonial {
+    padding: 60px 15px;
+    .container {
+      width: 100vw;
+      h3 {
+        font-size: 32px;
+        line-height: 40px;
+        br {
+          display: none;
+        }
+      }
+      .sw {
+        gap: 30px;
+        margin-top: 30px;
+        flex-direction: column;
+        img {
+          width: 120px;
+          height: 147px;
+        }
+        .info {
+          text-align: left;
+          width: 370px;
+          padding-top: 40px;
+          p {
+            font-size: 20px;
+          }
+          img {
+            width: 40px;
+          }
+          .user {
+            margin-right: auto;
+          }
+        }
+      }
+      .partners {
+        width: 100vw;
+        .par {
+          display: flex;
+          gap: 30px;
+          img {
+            height: 50px;
+            width: 150px;
+          }
+        }
+      }
+    }
+  }
+}

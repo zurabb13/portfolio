@@ -46,3 +46,9 @@ div {
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  .about {
+    display: none;
+  }
+}
