@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { BannerComponent } from './banner/banner.component';
-import { AboutComponent } from './about/about.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from '../../shared/footer/footer.component';
@@ -10,7 +9,6 @@ import { UsServicesComponent } from './us-services/us-services.component';
 
 const COMPONENTS = [
   BannerComponent,
-  AboutComponent,
   AboutMeComponent,
   UsServicesComponent,
   ProjectComponent,

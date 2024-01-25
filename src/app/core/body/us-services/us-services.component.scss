@@ -1,41 +1,48 @@
 .services {
-  width: 1200px;
+  width: 100vw;
   background-color: white;
-  margin: 0 auto;
-
-  .serv {
-    margin-bottom: 40px;
-    span {
-      font-size: 18px;
-      line-height: 25px;
-      margin-bottom: 20px;
-    }
-    h2 {
-      font-size: 60px;
-    }
-    .color {
-      font-size: 60px;
-      color: #a555e6;
-    }
-  }
-}
-@media screen and (max-width: 450px) {
-  .services {
-    width: 100vw;
-    padding: 30px 14px;
+  .stv {
+    padding: 120px 20px;
+    width: 1200px;
+    margin: 0 auto;
     .serv {
+      text-align: center;
       margin-bottom: 40px;
       span {
         font-size: 18px;
         line-height: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
       h2 {
-        font-size: 32px;
+        font-size: 60px;
       }
       .color {
-        font-size: 32px;
+        font-size: 60px;
         color: #a555e6;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .services {
+    .stv {
+      width: 100vw;
+      padding: 30px 14px;
+      .serv {
+        margin-bottom: 40px;
+        span {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        h2 {
+          font-size: 32px;
+        }
+        .color {
+          font-size: 32px;
+          color: #a555e6;
+        }
       }
     }
   }

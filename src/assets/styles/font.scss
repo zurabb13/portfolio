@@ -1,1 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;800&display=swap');
+
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlpwgwvFAVdoq2_v9KQU4Wc.woff2)
+    format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlpwgwvFAVdoq2_v9aQU4Wc.woff2)
+    format('woff2');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlpwgwvFAVdoq2_v-6QU.woff2)
+    format('woff2');
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlpwgwvFAVdoq2_v9KQU4Wc.woff2)
+    format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlpwgwvFAVdoq2_v9aQU4Wc.woff2)
+    format('woff2');
+}
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlpwgwvFAVdoq2_v-6QU.woff2)
+    format('woff2');
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlpwgwvFAVdoq2_v9KQU4Wc.woff2)
+    format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexend/v19/wlpwgwvFAVdoq2_v9aQU4Wc.woff2)
+    format('woff2');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a {
+  font-family: 'Lexend' !important;
+}
