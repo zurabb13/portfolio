@@ -34,35 +34,40 @@
       <span class="color">2019</span>
     </h2>
   </div>
-  <div class="flex gap-5 int">
-    <div>
-      <div class="inp">My Mission</div>
-      <p>
-        s a digital designer, I specialize in creating unique visual identities
-        for digital products. I believe that a catchy design starts with common
-        values, open communication, and respect for your audience. Capitalize on
-        low hanging fruit to identify a ballpark value added activity
-      </p>
-      <p>
-        Beta test survival. Phosfluorescently engage worldwide methodologies
-        Web-enabled technology. Interactively coordinate proactive commerce via
-        process-centric "outside the box" thinking. Completely
-      </p>
+  <div class="amb flex flex-row gap-3 justify-center">
+    <div class="flex gap-5 int">
+      <div>
+        <div class="inp">My Mission</div>
+        <p>
+          s a digital designer, I specialize in creating unique visual
+          identities for digital products. I believe that a catchy design starts
+          with common values, open communication, and respect for your audience.
+          Capitalize on low hanging fruit to identify a ballpark value added
+          activity
+        </p>
+        <p>
+          Beta test survival. Phosfluorescently engage worldwide methodologies
+          Web-enabled technology. Interactively coordinate proactive commerce
+          via process-centric "outside the box" thinking. Completely
+        </p>
+      </div>
     </div>
-    <div class="flex flex-col gap-4 int">
-      <div class="inp">My Skill</div>
-      <ul class="flex flex-wrap gap-5">
-        @for (item of item; track $index) {
-          <li
-            [matTooltip]="item.name"
-            class="flex flex-col justify-center items-center gap-1">
-            <span class="flex justify-center items-center">
-              <img [src]="item.imageUrl" [alt]="item.name" />
-            </span>
-            <!-- <p>{{ item.name }}</p> -->
-          </li>
-        }
-      </ul>
+    <div class="flex gap-5 int">
+      <div>
+        <div class="inp">My Skill</div>
+        <ul class="flex flex-wrap gap-5">
+          @for (item of item; track $index) {
+            <li
+              [matTooltip]="item.name"
+              class="flex flex-col justify-center items-center gap-1">
+              <span class="flex justify-center items-center">
+                <img [src]="item.imageUrl" [alt]="item.name" />
+              </span>
+              <!-- <p>{{ item.name }}</p> -->
+            </li>
+          }
+        </ul>
+      </div>
     </div>
   </div>
 </div>

@@ -47,3 +47,26 @@
     }
   }
 }
+@media screen and (min-width: 451px) and (max-width: 1100px) {
+  .services {
+    .stv {
+      width: 100vw;
+      padding: 30px 14px;
+      .serv {
+        margin-bottom: 40px;
+        span {
+          font-size: 18px;
+          line-height: 25px;
+          margin-bottom: 20px;
+        }
+        h2 {
+          font-size: 38px;
+        }
+        .color {
+          font-size: 32px;
+          color: #a555e6;
+        }
+      }
+    }
+  }
+}

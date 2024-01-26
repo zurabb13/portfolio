@@ -31,4 +31,24 @@
       <button class="btn-green">Subbmit now</button>
     </div>
   </div>
+  <div class="circle flex gap-5">
+    @for (item of about; track $index) {
+      <ul class="flex justify-end items-center gap-5">
+        <li>
+          <h4>{{ item.name }}</h4>
+          <div class="rounded">
+            <img
+              class="movable"
+              src="assets/img/png/circule1.png"
+              width="130px"
+              height="130px"
+              alt="" />
+            <div class="portal">
+              <img src="assets/img/svg/portal-1.svg" />
+            </div>
+          </div>
+        </li>
+      </ul>
+    }
+  </div>
 </div>

@@ -182,3 +182,5 @@ export const about: abouts[] = [
     img2: './assets/img/svg/portal-2.svg',
   },
 ];
+
+// export const contact implements about
