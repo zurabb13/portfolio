@@ -3,11 +3,12 @@ import { register } from 'swiper/element/bundle';
 import Swiper from 'swiper';
 import { info, partners } from './testimonial';
 import { Info, Partner } from '../../../modals/testimonial.modal';
+import { NgOptimizedImage } from '@angular/common';
 register();
 @Component({
   selector: 'app-testimonial',
   standalone: true,
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './testimonial.component.html',
   styleUrl: './testimonial.component.scss',
 })

@@ -5,7 +5,7 @@
         <ul>
           <li>
             <h4>{{ item.name }}</h4>
-            <img [src]="item.img" [alt]="item.name" />
+            <img [ngSrc]="item.img" width="60" height="60" [alt]="item.name" />
           </li>
         </ul>
         <!-- <h4>{{ item.name }}</h4> -->
@@ -19,7 +19,7 @@
         <ul>
           <li>
             <h4>{{ item.name }}</h4>
-            <img [src]="item.img2" [alt]="item.name" />
+            <img [ngSrc]="item.img2" fill [alt]="item.name" />
           </li>
         </ul>
       }
@@ -57,7 +57,11 @@
             [matTooltip]="item.name"
             class="flex flex-col justify-center items-center gap-1">
             <span class="flex justify-center items-center">
-              <img [src]="item.imageUrl" [alt]="item.name" />
+              <img
+                [ngSrc]="item.imageUrl"
+                width="60"
+                height="60"
+                alt="spiner" />
             </span>
             <!-- <p>{{ item.name }}</p> -->
           </li>

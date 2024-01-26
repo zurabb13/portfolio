@@ -12,7 +12,11 @@
         @for (cont of contact; track $index) {
           <li class="flex flex-row gap-5">
             <div class="br">
-              <img [src]="cont.img" [alt]="cont.type" />
+              <img
+                [ngSrc]="cont.img"
+                width="30"
+                height="30"
+                [alt]="cont.type" />
             </div>
             <div class="flex flex-col gap-5">
               <span>{{ cont.type }} </span>
@@ -27,7 +31,8 @@
       <input type="text" placeholder="Name" />
       <input type="text" placeholder="Email" />
       <input type="text" placeholder="Subject" />
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <label for="textarea">text</label>
+      <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
       <button class="btn-green">Subbmit now</button>
     </div>
   </div>

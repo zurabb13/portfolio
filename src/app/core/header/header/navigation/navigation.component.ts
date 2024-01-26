@@ -7,13 +7,19 @@ import {
 } from '@angular/cdk/overlay';
 import { ListComponent } from '../../../../shared/list/list.component';
 import { CdkPortal, PortalModule } from '@angular/cdk/portal';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Nav } from '../../../../modals/nav.melal';
 import { nav } from './nav';
 @Component({
   selector: 'app-navigation',
   standalone: true,
-  imports: [CommonModule, OverlayModule, ListComponent, PortalModule],
+  imports: [
+    CommonModule,
+    NgOptimizedImage,
+    OverlayModule,
+    ListComponent,
+    PortalModule,
+  ],
   templateUrl: './navigation.component.html',
   styleUrl: './navigation.component.scss',
   providers: [],

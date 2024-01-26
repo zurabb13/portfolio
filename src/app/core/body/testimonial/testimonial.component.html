@@ -12,10 +12,18 @@
         @for (item of info; track $index) {
           <div class="swiper-slide">
             <div class="flex flex-row sw">
-              <img [src]="item.img" [alt]="item.name" />
+              <img
+                [ngSrc]="item.img"
+                width="360"
+                height="200"
+                [alt]="item.name" />
               <div class="info flex justify-center items-center flex-col gap-4">
                 <span class="icon">
-                  <img src="assets/img/svg/double-quotes.svg" alt="icon"
+                  <img
+                    ngSrc="assets/img/svg/double-quotes.svg"
+                    width="30"
+                    height="30"
+                    alt="icon"
                 /></span>
                 <p>{{ item.description }}</p>
                 <div class="user">
@@ -32,7 +40,12 @@
       <div class="swiper-wrapper">
         @for (partners of partners; track $index) {
           <div class="swiper-slide par">
-            <img class="" [src]="partners.img" [alt]="partners.title" />
+            <img
+              class=""
+              [ngSrc]="partners.img"
+              width="30"
+              height="30"
+              [alt]="partners.title" />
           </div>
         }
       </div>
