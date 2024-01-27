@@ -8,4 +8,6 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
   templateUrl: './project.component.html',
   styleUrl: './project.component.scss',
 })
-export class ProjectComponent {}
+export class ProjectComponent {
+  id = 'project';
+}

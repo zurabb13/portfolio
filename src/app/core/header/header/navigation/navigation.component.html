@@ -18,7 +18,7 @@
     <ul class="flex gap-8 list">
       @for (item of nav; track $index) {
         <li>
-          <a [href]="item.router">{{ item.listName }} </a>
+          <a (click)="scrollTo(item.router)">{{ item.listName }} </a>
         </li>
       }
     </ul>

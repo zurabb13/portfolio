@@ -10,6 +10,7 @@ import { NgOptimizedImage } from '@angular/common';
   styleUrl: './contact.component.scss',
 })
 export class ContactComponent implements OnInit {
+  id = 'contact';
   contact: Contact[] = [];
 
   ngOnInit(): void {

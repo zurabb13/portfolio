@@ -1,7 +1,7 @@
 export const nav = [
   {
     listName: 'Home',
-    router: 'Home',
+    router: 'home',
   },
   {
     listName: 'ABOUT',
@@ -13,11 +13,11 @@ export const nav = [
   },
   {
     listName: 'PORTFOLIO',
-    router: 'portfolio',
+    router: 'project',
   },
   {
-    listName: 'BLOG',
-    router: 'blog',
+    listName: 'WORK',
+    router: 'work',
   },
   {
     listName: 'CONTACT',
