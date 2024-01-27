@@ -29,6 +29,7 @@
     "rxjs": "~7.8.0",
     "swiper": "^11.0.5",
     "tslib": "^2.3.0",
+    "vercel": "^33.3.0",
     "zone.js": "~0.14.2"
   },
   "devDependencies": {
