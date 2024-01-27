@@ -94,7 +94,7 @@
       object-fit: contain;
       opacity: 0.5;
       transition: 0.3s;
-
+      aspect-ratio: 1 / 1;
       &:hover {
         cursor: pointer;
         opacity: 1;

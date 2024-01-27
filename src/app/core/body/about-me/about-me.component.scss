@@ -155,9 +155,8 @@
             border: 2px solid #a555e6;
           }
           img {
-            width: 60px;
-            height: 60px;
             object-fit: contain;
+            aspect-ratio: 1;
           }
         }
         img {
