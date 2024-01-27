@@ -1,19 +1,19 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
 import {
   Overlay,
   OverlayConfig,
   OverlayModule,
   OverlayRef,
-} from '@angular/cdk/overlay';
-import { ListComponent } from '../../../../shared/list/list.component';
-import { CdkPortal, PortalModule } from '@angular/cdk/portal';
-import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { Nav } from '../../../../modals/nav.melal';
-import { nav } from './nav';
-import { Router, RouterLink, RouterOutlet } from '@angular/router';
-import { ScrollService } from '../../../../services/scroll.service';
+} from "@angular/cdk/overlay";
+import { ListComponent } from "../../../../shared/list/list.component";
+import { CdkPortal, PortalModule } from "@angular/cdk/portal";
+import { CommonModule, NgOptimizedImage } from "@angular/common";
+import { Nav } from "../../../../modals/nav.melal";
+import { nav } from "./nav";
+import { RouterLink, RouterOutlet } from "@angular/router";
+import { ScrollService } from "../../../../services/scroll.service";
 @Component({
-  selector: 'app-navigation',
+  selector: "app-navigation",
   standalone: true,
   imports: [
     CommonModule,
@@ -25,8 +25,8 @@ import { ScrollService } from '../../../../services/scroll.service';
     PortalModule,
     RouterLink,
   ],
-  templateUrl: './navigation.component.html',
-  styleUrl: './navigation.component.scss',
+  templateUrl: "./navigation.component.html",
+  styleUrl: "./navigation.component.scss",
   providers: [ScrollService],
 })
 export class NavigationComponent implements OnInit {
@@ -37,7 +37,7 @@ export class NavigationComponent implements OnInit {
 
   //viewChild
   @ViewChild(CdkPortal) portal!: CdkPortal;
-  @ViewChild('banner') BannerComponent!: ElementRef;
+  @ViewChild("banner") BannerComponent!: ElementRef;
 
   //overlayRef
   overlayRef: OverlayRef | null = null;
@@ -70,4 +70,5 @@ export class NavigationComponent implements OnInit {
   ngOnInit() {
     this.nav = nav;
   }
+  onKeyup(){}
 }

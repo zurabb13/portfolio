@@ -1,6 +1,6 @@
 <nav class="h-17 flex justify-around items-center">
   <div class="flex gap-5 items-center logo">
-    <span (click)="scrollTo('home')" class="home">
+    <span (click)="scrollTo('home')" (keypress)="scrollTo('home')" tabindex="0" class="home">
       <img
         ngSrc="./assets/img/png/logo-white.png"
         width="130"

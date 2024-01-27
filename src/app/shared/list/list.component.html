@@ -11,7 +11,7 @@
     <ul class="flex justify-center items-start flex-col gap-3">
       @for (item of burgerManu; track $index) {
         <li>
-          <button (click)="scrollTo(item.router)">{{ item.listName }}</button>
+          <button (click)="scrollTo(item.router)" (keypress)="scrollTo(item.router)">{{ item.listName }}</button>
         </li>
       }
     </ul>

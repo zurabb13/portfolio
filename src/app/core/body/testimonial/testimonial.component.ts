@@ -1,16 +1,16 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { register } from 'swiper/element/bundle';
-import Swiper from 'swiper';
-import { info, partners } from './testimonial';
-import { Info, Partner } from '../../../modals/testimonial.modal';
-import { NgOptimizedImage } from '@angular/common';
+import { AfterViewInit, Component, OnInit } from "@angular/core";
+import { register } from "swiper/element/bundle";
+import Swiper from "swiper";
+import { info, partners } from "./testimonial";
+import { Info, Partner } from "../../../modals/testimonial.modal";
+import { NgOptimizedImage } from "@angular/common";
 register();
 @Component({
-  selector: 'app-testimonial',
+  selector: "app-testimonial",
   standalone: true,
   imports: [NgOptimizedImage],
-  templateUrl: './testimonial.component.html',
-  styleUrl: './testimonial.component.scss',
+  templateUrl: "./testimonial.component.html",
+  styleUrl: "./testimonial.component.scss",
 })
 export class TestimonialComponent implements AfterViewInit, OnInit {
   info: Info[] = [];
@@ -21,12 +21,12 @@ export class TestimonialComponent implements AfterViewInit, OnInit {
     this.partners = partners;
   }
   ngAfterViewInit() {
-    if (typeof window !== 'undefined') {
-      const swiper = new Swiper('.mySwiper', {
+    if (typeof window !== "undefined") {
+      new Swiper(".mySwiper", {
         slidesPerView: 1,
         loop: true,
       });
-      const partners = new Swiper('.partners', {
+      new Swiper(".partners", {
         slidesPerView: 5,
         loop: true,
         breakpoints: {

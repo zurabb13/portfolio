@@ -1,26 +1,26 @@
 export const nav = [
   {
-    listName: 'HOME',
-    router: 'home',
+    listName: "HOME",
+    router: "home",
   },
   {
-    listName: 'ABOUT',
-    router: 'about',
+    listName: "ABOUT",
+    router: "about",
   },
   {
-    listName: 'SERVICE',
-    router: 'service',
+    listName: "SERVICE",
+    router: "service",
   },
   {
-    listName: 'PORTFOLIO',
-    router: 'project',
+    listName: "PORTFOLIO",
+    router: "project",
   },
   {
-    listName: 'WORK',
-    router: 'work',
+    listName: "WORK",
+    router: "work",
   },
   {
-    listName: 'CONTACT',
-    router: 'contact',
+    listName: "CONTACT",
+    router: "contact",
   },
 ];

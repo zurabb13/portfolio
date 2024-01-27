@@ -1,0 +1,741 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@angular/animations": "^17.1.0-next.0",
+    "@angular/cdk": "^17.1.0-next.3",
+    "@angular/common": "^17.1.0-next.0",
+    "@angular/compiler": "^17.1.0-next.0",
+    "@angular/core": "^17.1.0-next.0",
+    "@angular/forms": "^17.1.0-next.0",
+    "@angular/material": "^17.1.0-next.3",
+    "@angular/platform-browser": "^17.1.0-next.0",
+    "@angular/platform-browser-dynamic": "^17.1.0-next.0",
+    "@angular/platform-server": "^17.1.0-next.0",
+    "@angular/router": "^17.1.0-next.0",
+    "@angular/ssr": "^17.1.0-rc.0",
+    "express": "^4.18.2",
+    "rxjs": "~7.8.0",
+    "swiper": "^11.0.5",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2",
+    "@angular-devkit/build-angular": "^17.1.0-rc.0",
+    "@angular-eslint/builder": "17.2.1",
+    "@angular-eslint/eslint-plugin": "17.2.1",
+    "@angular-eslint/eslint-plugin-template": "17.2.1",
+    "@angular-eslint/schematics": "17.2.1",
+    "@angular-eslint/template-parser": "17.2.1",
+    "@angular/cli": "^17.1.0-rc.0",
+    "@angular/compiler-cli": "^17.1.0-next.0",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "@typescript-eslint/parser": "6.19.0",
+    "@webpack-cli/generators": "^3.0.7",
+    "autoprefixer": "^10.4.16",
+    "css-loader": "^6.9.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "mini-css-extract-plugin": "^2.7.7",
+    "postcss": "^8.4.33",
+    "prettier": "^3.2.4",
+    "sass": "^1.69.7",
+    "sass-loader": "^14.0.0",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^3.4.0",
+    "tailwindscss": "^0.3.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "~5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "workbox-webpack-plugin": "^7.0.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "14645878845883387518"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4689145951703824387"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "8029529840694929507"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "6032454498588614712"
+      },
+      {
+        "file": "angular.json",
+        "hash": "1879711066304536485"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12816002780605135722"
+      },
+      {
+        "file": "package.json",
+        "hash": "7564855240293351163"
+      },
+      {
+        "file": "server.ts",
+        "hash": "17556996765790181515"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "2047580705632880755"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "11679617857564789115"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "13335405887176925887"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "1520658220666812951"
+      },
+      {
+        "file": "src/app/app.config.server.ts",
+        "hash": "15184490126418035619"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "13552563132421534485"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "809736233805555256"
+      },
+      {
+        "file": "src/app/core/body/about-me/about-me.component.html",
+        "hash": "2859460184228068322"
+      },
+      {
+        "file": "src/app/core/body/about-me/about-me.component.scss",
+        "hash": "7969913422187074711"
+      },
+      {
+        "file": "src/app/core/body/about-me/about-me.component.spec.ts",
+        "hash": "3429819514338482827"
+      },
+      {
+        "file": "src/app/core/body/about-me/about-me.component.ts",
+        "hash": "6603996848947134038"
+      },
+      {
+        "file": "src/app/core/body/about-me/data.ts",
+        "hash": "50551685873155447"
+      },
+      {
+        "file": "src/app/core/body/about/about.component.html",
+        "hash": "9572713812354864103"
+      },
+      {
+        "file": "src/app/core/body/about/about.component.scss",
+        "hash": "15971791812567444086"
+      },
+      {
+        "file": "src/app/core/body/about/about.component.spec.ts",
+        "hash": "5623631242477827208"
+      },
+      {
+        "file": "src/app/core/body/about/about.component.ts",
+        "hash": "4475678844729649789"
+      },
+      {
+        "file": "src/app/core/body/banner/banner.component.html",
+        "hash": "17336902179214166240"
+      },
+      {
+        "file": "src/app/core/body/banner/banner.component.scss",
+        "hash": "11599851620247441926"
+      },
+      {
+        "file": "src/app/core/body/banner/banner.component.spec.ts",
+        "hash": "2027754296934361933"
+      },
+      {
+        "file": "src/app/core/body/banner/banner.component.ts",
+        "hash": "12010637136849874161"
+      },
+      {
+        "file": "src/app/core/body/body.component.html",
+        "hash": "4798881867208583953"
+      },
+      {
+        "file": "src/app/core/body/body.component.scss",
+        "hash": "8413207427448003132"
+      },
+      {
+        "file": "src/app/core/body/body.component.spec.ts",
+        "hash": "5336499762093363134"
+      },
+      {
+        "file": "src/app/core/body/body.component.ts",
+        "hash": "14102715971200694108"
+      },
+      {
+        "file": "src/app/core/body/contact/contact.component.html",
+        "hash": "9807627694515978682"
+      },
+      {
+        "file": "src/app/core/body/contact/contact.component.scss",
+        "hash": "14490892863754233593"
+      },
+      {
+        "file": "src/app/core/body/contact/contact.component.ts",
+        "hash": "14416217492026776028"
+      },
+      {
+        "file": "src/app/core/body/contact/contact.ts",
+        "hash": "14588810402582092614"
+      },
+      {
+        "file": "src/app/core/body/project/portfolio/portfolio.component.html",
+        "hash": "2091271297336248545"
+      },
+      {
+        "file": "src/app/core/body/project/portfolio/portfolio.component.scss",
+        "hash": "1368352969454278341"
+      },
+      {
+        "file": "src/app/core/body/project/portfolio/portfolio.component.ts",
+        "hash": "18017285614135809878"
+      },
+      {
+        "file": "src/app/core/body/project/project.component.html",
+        "hash": "9123939233790676969"
+      },
+      {
+        "file": "src/app/core/body/project/project.component.scss",
+        "hash": "4197496324957008642"
+      },
+      {
+        "file": "src/app/core/body/project/project.component.ts",
+        "hash": "1521168307790296841"
+      },
+      {
+        "file": "src/app/core/body/testimonial/testimonial.component.html",
+        "hash": "13146594888602027966"
+      },
+      {
+        "file": "src/app/core/body/testimonial/testimonial.component.scss",
+        "hash": "6807992989519994365"
+      },
+      {
+        "file": "src/app/core/body/testimonial/testimonial.component.ts",
+        "hash": "6674129877902910872"
+      },
+      {
+        "file": "src/app/core/body/testimonial/testimonial.ts",
+        "hash": "1013041276906315966"
+      },
+      {
+        "file": "src/app/core/body/us-services/desc/desc.component.html",
+        "hash": "13152877993508997372"
+      },
+      {
+        "file": "src/app/core/body/us-services/desc/desc.component.scss",
+        "hash": "9496888065048193850"
+      },
+      {
+        "file": "src/app/core/body/us-services/desc/desc.component.ts",
+        "hash": "14084943253860196140"
+      },
+      {
+        "file": "src/app/core/body/us-services/desc/desk.ts",
+        "hash": "1617977213271908440"
+      },
+      {
+        "file": "src/app/core/body/us-services/us-services.component.html",
+        "hash": "4656328727708054745"
+      },
+      {
+        "file": "src/app/core/body/us-services/us-services.component.scss",
+        "hash": "13277327688298062846"
+      },
+      {
+        "file": "src/app/core/body/us-services/us-services.component.ts",
+        "hash": "10981801371316763622"
+      },
+      {
+        "file": "src/app/core/header/header.component.html",
+        "hash": "14016314677045614692"
+      },
+      {
+        "file": "src/app/core/header/header.component.scss",
+        "hash": "4330830341621965242"
+      },
+      {
+        "file": "src/app/core/header/header.component.ts",
+        "hash": "2523334493659792075"
+      },
+      {
+        "file": "src/app/core/header/header/navigation/nav.ts",
+        "hash": "9300322294994572853"
+      },
+      {
+        "file": "src/app/core/header/header/navigation/navigation.component.html",
+        "hash": "14481094295427349493"
+      },
+      {
+        "file": "src/app/core/header/header/navigation/navigation.component.scss",
+        "hash": "9485332368040860165"
+      },
+      {
+        "file": "src/app/core/header/header/navigation/navigation.component.spec.ts",
+        "hash": "16967727797320594134"
+      },
+      {
+        "file": "src/app/core/header/header/navigation/navigation.component.ts",
+        "hash": "9433228321726810191"
+      },
+      {
+        "file": "src/app/modals/contact.modal.ts",
+        "hash": "10822717381815175786"
+      },
+      {
+        "file": "src/app/modals/desk.modal.ts",
+        "hash": "1317423634722009037"
+      },
+      {
+        "file": "src/app/modals/item.modal.ts",
+        "hash": "260070773148295217"
+      },
+      {
+        "file": "src/app/modals/nav.melal.ts",
+        "hash": "5065759514842501750"
+      },
+      {
+        "file": "src/app/modals/testimonial.modal.ts",
+        "hash": "9567449262842874989"
+      },
+      {
+        "file": "src/app/services/scroll.service.ts",
+        "hash": "13564820983129105778"
+      },
+      {
+        "file": "src/app/shared/footer/footer.component.html",
+        "hash": "16687380907302044967"
+      },
+      {
+        "file": "src/app/shared/footer/footer.component.scss",
+        "hash": "12678820239483355905"
+      },
+      {
+        "file": "src/app/shared/footer/footer.component.ts",
+        "hash": "10456588291939977681"
+      },
+      {
+        "file": "src/app/shared/list/list.component.html",
+        "hash": "18286238213858150129"
+      },
+      {
+        "file": "src/app/shared/list/list.component.scss",
+        "hash": "325756625101912839"
+      },
+      {
+        "file": "src/app/shared/list/list.component.ts",
+        "hash": "10668960115092875917"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/img/bg/contact.jpg",
+        "hash": "14956121428759444470"
+      },
+      {
+        "file": "src/assets/img/bg/portfolio-bg.jpg",
+        "hash": "15388195791564379021"
+      },
+      {
+        "file": "src/assets/img/png/auother.png",
+        "hash": "3977692652078017216"
+      },
+      {
+        "file": "src/assets/img/png/bg-effect.png",
+        "hash": "15852386166593058348"
+      },
+      {
+        "file": "src/assets/img/png/circule.png",
+        "hash": "18030383934372886531"
+      },
+      {
+        "file": "src/assets/img/png/circule1.png",
+        "hash": "6383440682237253207"
+      },
+      {
+        "file": "src/assets/img/png/logo-white.png",
+        "hash": "8841504976341885551"
+      },
+      {
+        "file": "src/assets/img/png/logo.png",
+        "hash": "14398280234221179087"
+      },
+      {
+        "file": "src/assets/img/png/partners/aos.png",
+        "hash": "972735236232159799"
+      },
+      {
+        "file": "src/assets/img/png/partners/buzzer.png",
+        "hash": "8728855110684756270"
+      },
+      {
+        "file": "src/assets/img/png/partners/forbes.png",
+        "hash": "13625680669087410554"
+      },
+      {
+        "file": "src/assets/img/png/partners/kik.png",
+        "hash": "15555777534086506465"
+      },
+      {
+        "file": "src/assets/img/png/partners/paypal.png",
+        "hash": "1800650585484785857"
+      },
+      {
+        "file": "src/assets/img/png/partners/ts.png",
+        "hash": "12008770560362228320"
+      },
+      {
+        "file": "src/assets/img/png/services/3s.jpg",
+        "hash": "8556201571610818266"
+      },
+      {
+        "file": "src/assets/img/png/services/ad.jpg",
+        "hash": "9922418333279290537"
+      },
+      {
+        "file": "src/assets/img/png/services/backend.webp",
+        "hash": "16250798757265118984"
+      },
+      {
+        "file": "src/assets/img/png/services/ui.jpg",
+        "hash": "17344961121345336411"
+      },
+      {
+        "file": "src/assets/img/png/services/web.jpg",
+        "hash": "7080746301571339796"
+      },
+      {
+        "file": "src/assets/img/png/testimonial/test-1.jpg",
+        "hash": "15369625038663192596"
+      },
+      {
+        "file": "src/assets/img/png/testimonial/test-2.jpg",
+        "hash": "13079877756549712438"
+      },
+      {
+        "file": "src/assets/img/png/testimonial/test-3.jpg",
+        "hash": "4428257708376630651"
+      },
+      {
+        "file": "src/assets/img/png/toptal.png",
+        "hash": "4722944429612589848"
+      },
+      {
+        "file": "src/assets/img/png/upwork.png",
+        "hash": "12458005533623135416"
+      },
+      {
+        "file": "src/assets/img/svg/address.svg",
+        "hash": "14606778689964738689"
+      },
+      {
+        "file": "src/assets/img/svg/arrow-right.svg",
+        "hash": "511497848011635066"
+      },
+      {
+        "file": "src/assets/img/svg/broder.svg",
+        "hash": "15007359253725026873"
+      },
+      {
+        "file": "src/assets/img/svg/double-quotes.svg",
+        "hash": "11260175844576507645"
+      },
+      {
+        "file": "src/assets/img/svg/element.svg",
+        "hash": "18323554422449945205"
+      },
+      {
+        "file": "src/assets/img/svg/email.svg",
+        "hash": "4467130355176217898"
+      },
+      {
+        "file": "src/assets/img/svg/figma.svg",
+        "hash": "8143080472197256881"
+      },
+      {
+        "file": "src/assets/img/svg/ham.svg",
+        "hash": "14662149252565121131"
+      },
+      {
+        "file": "src/assets/img/svg/icons/facebook.svg",
+        "hash": "11334137999826525224"
+      },
+      {
+        "file": "src/assets/img/svg/icons/github.svg",
+        "hash": "10848754355664669891"
+      },
+      {
+        "file": "src/assets/img/svg/icons/linkedin.svg",
+        "hash": "14979098143327073915"
+      },
+      {
+        "file": "src/assets/img/svg/icons/twitter.svg",
+        "hash": "1148129003320515021"
+      },
+      {
+        "file": "src/assets/img/svg/illustrator.svg",
+        "hash": "5624980735820125252"
+      },
+      {
+        "file": "src/assets/img/svg/logo/angular-material.svg",
+        "hash": "17782749281387560409"
+      },
+      {
+        "file": "src/assets/img/svg/logo/angular.svg",
+        "hash": "9831696355414146039"
+      },
+      {
+        "file": "src/assets/img/svg/logo/chart.svg",
+        "hash": "7881344997105303086"
+      },
+      {
+        "file": "src/assets/img/svg/logo/css.svg",
+        "hash": "10580153357504902960"
+      },
+      {
+        "file": "src/assets/img/svg/logo/docker.svg",
+        "hash": "5283261243569898058"
+      },
+      {
+        "file": "src/assets/img/svg/logo/eslint.svg",
+        "hash": "2049425955571927000"
+      },
+      {
+        "file": "src/assets/img/svg/logo/figma.svg",
+        "hash": "15148464172289725292"
+      },
+      {
+        "file": "src/assets/img/svg/logo/git.svg",
+        "hash": "3857545416986685197"
+      },
+      {
+        "file": "src/assets/img/svg/logo/github.svg",
+        "hash": "9230098929523836142"
+      },
+      {
+        "file": "src/assets/img/svg/logo/html.svg",
+        "hash": "16751099578670719390"
+      },
+      {
+        "file": "src/assets/img/svg/logo/javascript.svg",
+        "hash": "4919218391999761769"
+      },
+      {
+        "file": "src/assets/img/svg/logo/jira.svg",
+        "hash": "12276176443438527218"
+      },
+      {
+        "file": "src/assets/img/svg/logo/mongodb.svg",
+        "hash": "217306255086783259"
+      },
+      {
+        "file": "src/assets/img/svg/logo/nestjs.svg",
+        "hash": "6973644920282509740"
+      },
+      {
+        "file": "src/assets/img/svg/logo/nodejs.svg",
+        "hash": "13732748668935135556"
+      },
+      {
+        "file": "src/assets/img/svg/logo/npm.svg",
+        "hash": "16011651535531183982"
+      },
+      {
+        "file": "src/assets/img/svg/logo/nx.svg",
+        "hash": "15363934770284247667"
+      },
+      {
+        "file": "src/assets/img/svg/logo/postgresql.svg",
+        "hash": "7726215507542420590"
+      },
+      {
+        "file": "src/assets/img/svg/logo/primeng.svg",
+        "hash": "1063569724466232198"
+      },
+      {
+        "file": "src/assets/img/svg/logo/react.svg",
+        "hash": "2593073419820839601"
+      },
+      {
+        "file": "src/assets/img/svg/logo/rxjs.svg",
+        "hash": "1164243251963665360"
+      },
+      {
+        "file": "src/assets/img/svg/logo/scss.svg",
+        "hash": "17772230294749210652"
+      },
+      {
+        "file": "src/assets/img/svg/logo/tailwind.svg",
+        "hash": "14861559344253865304"
+      },
+      {
+        "file": "src/assets/img/svg/logo/trello.svg",
+        "hash": "2224877893576713552"
+      },
+      {
+        "file": "src/assets/img/svg/logo/typescript.svg",
+        "hash": "11760677968935200535"
+      },
+      {
+        "file": "src/assets/img/svg/logo/webpack.svg",
+        "hash": "17560167108604891168"
+      },
+      {
+        "file": "src/assets/img/svg/logo/webstorm.svg",
+        "hash": "8387435563454981749"
+      },
+      {
+        "file": "src/assets/img/svg/logo/xd.svg",
+        "hash": "891240783833894733"
+      },
+      {
+        "file": "src/assets/img/svg/logo/yarn.svg",
+        "hash": "1598443817037686423"
+      },
+      {
+        "file": "src/assets/img/svg/phone.svg",
+        "hash": "17210797215744763713"
+      },
+      {
+        "file": "src/assets/img/svg/photoshop.svg",
+        "hash": "8452025213228427186"
+      },
+      {
+        "file": "src/assets/img/svg/portal-1.svg",
+        "hash": "300101135596755401"
+      },
+      {
+        "file": "src/assets/img/svg/portal-2.svg",
+        "hash": "13017193225768726627"
+      },
+      {
+        "file": "src/assets/img/svg/portal.svg",
+        "hash": "1257291707709437042"
+      },
+      {
+        "file": "src/assets/img/svg/scroll.svg",
+        "hash": "1281265327793714505"
+      },
+      {
+        "file": "src/assets/img/svg/sketch.svg",
+        "hash": "8420965198168593645"
+      },
+      {
+        "file": "src/assets/img/svg/webflow.svg",
+        "hash": "11004092200607319899"
+      },
+      {
+        "file": "src/assets/styles/_link.scss",
+        "hash": "10597201161713969861"
+      },
+      {
+        "file": "src/assets/styles/button.scss",
+        "hash": "5540258079899863569"
+      },
+      {
+        "file": "src/assets/styles/font.scss",
+        "hash": "1820886560448715022"
+      },
+      {
+        "file": "src/assets/styles/reset.scss",
+        "hash": "18010423524545739419"
+      },
+      {
+        "file": "src/assets/styles/variables.scss",
+        "hash": "11268472167299689946"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "7096600707873253947"
+      },
+      {
+        "file": "src/index.ts",
+        "hash": "9038696624624650318"
+      },
+      {
+        "file": "src/main.server.ts",
+        "hash": "9257623809215978365"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "4169901790405087765"
+      },
+      {
+        "file": "src/styles.scss",
+        "hash": "15473454648526351985"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "4388470261360975479"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "2442507913137902887"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "8879712423760390618"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "5122839733245053999"
+      },
+      {
+        "file": "webpack.config.js",
+        "hash": "7615678609123033357"
+      }
+    ]
+  }
+}
