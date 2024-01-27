@@ -21,23 +21,25 @@ export class TestimonialComponent implements AfterViewInit, OnInit {
     this.partners = partners;
   }
   ngAfterViewInit() {
-    const swiper = new Swiper('.mySwiper', {
-      slidesPerView: 1,
-      loop: true,
-    });
-    const partners = new Swiper('.partners', {
-      slidesPerView: 5,
-      loop: true,
-      breakpoints: {
-        300: {
-          slidesPerView: 2,
-          loop: true,
+    if (typeof window !== 'undefined') {
+      const swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        loop: true,
+      });
+      const partners = new Swiper('.partners', {
+        slidesPerView: 5,
+        loop: true,
+        breakpoints: {
+          300: {
+            slidesPerView: 2,
+            loop: true,
+          },
+          900: {
+            slidesPerView: 5,
+            loop: true,
+          },
         },
-        900: {
-          slidesPerView: 5,
-          loop: true,
-        },
-      },
-    });
+      });
+    }
   }
 }

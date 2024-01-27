@@ -5,7 +5,7 @@
         <ul>
           <li>
             <h4>{{ item.name }}</h4>
-            <img [ngSrc]="item.img" width="60" height="60" alt="logo" />
+            <img [ngSrc]="item.img" width="60" height="60" alt="logo1" />
           </li>
         </ul>
         <!-- <h4>{{ item.name }}</h4> -->
@@ -64,7 +64,7 @@
                 [ngSrc]="item.imageUrl"
                 width="60"
                 height="60"
-                alt="icon logo" />
+                [alt]="item.name" />
             </span>
             <!-- <p>{{ item.name }}</p> -->
           </li>
