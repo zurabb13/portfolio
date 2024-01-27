@@ -1,6 +1,6 @@
 export const nav = [
   {
-    listName: 'Home',
+    listName: 'HOME',
     router: 'home',
   },
   {

@@ -1,7 +1,16 @@
-import { ElementRef, Injectable, ViewChild } from '@angular/core';
-import { BannerComponent } from '../core/body/banner/banner.component';
+import { Injectable } from '@angular/core';
 
 @Injectable({
   providedIn: 'root',
 })
-export class ScrollService {}
+export class ScrollService {
+  scrollTo(id: string) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  }
+}

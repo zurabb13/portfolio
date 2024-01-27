@@ -35,21 +35,20 @@ export class NavigationComponent implements OnInit {
     private scrollService: ScrollService,
   ) {}
 
-  @ViewChild('myTargetElement') targetElementRef!: ElementRef<HTMLElement>;
-
-  targetElementId: string | null = null;
-
-  scrollToElement() {
-    if (this.targetElementRef) {
-      this.targetElementRef.nativeElement.scrollIntoView({
-        behavior: 'smooth',
-      });
-    }
-  }
-
-  overlayRef: OverlayRef | null = null;
+  //viewChild
   @ViewChild(CdkPortal) portal!: CdkPortal;
   @ViewChild('banner') BannerComponent!: ElementRef;
+
+  //overlayRef
+  overlayRef: OverlayRef | null = null;
+
+  //navigation list
+  nav: Nav[] = [];
+
+  //scroll Service
+  scrollTo(id: string) {
+    this.scrollService.scrollTo(id);
+  }
 
   //burger modal
   openModal(): void {
@@ -67,21 +66,8 @@ export class NavigationComponent implements OnInit {
     overlayRef.backdropClick().subscribe(() => overlayRef.detach());
   }
 
-  nav: Nav[] = [];
-
   //ngoninit
   ngOnInit() {
     this.nav = nav;
   }
-  scrollTo(id: string) {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      });
-    }
-  }
-
-  //scroll service
 }

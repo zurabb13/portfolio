@@ -6,6 +6,9 @@ nav {
 
   .logo {
     font-size: 16px;
+    .home {
+      cursor: pointer;
+    }
     span {
       &:nth-child(2) {
         display: none;
