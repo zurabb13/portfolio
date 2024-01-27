@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import {
   Overlay,
   OverlayConfig,
@@ -10,25 +10,48 @@ import { CdkPortal, PortalModule } from '@angular/cdk/portal';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { Nav } from '../../../../modals/nav.melal';
 import { nav } from './nav';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
+import { ScrollService } from '../../../../services/scroll.service';
 @Component({
   selector: 'app-navigation',
   standalone: true,
   imports: [
     CommonModule,
     NgOptimizedImage,
+    RouterLink,
+    RouterOutlet,
     OverlayModule,
     ListComponent,
     PortalModule,
+    RouterLink,
   ],
   templateUrl: './navigation.component.html',
   styleUrl: './navigation.component.scss',
-  providers: [],
+  providers: [ScrollService],
 })
 export class NavigationComponent implements OnInit {
-  constructor(private overlay: Overlay) {}
+  constructor(
+    private overlay: Overlay,
+    private scrollService: ScrollService,
+  ) {}
+
+  @ViewChild('myTargetElement') targetElementRef!: ElementRef<HTMLElement>;
+
+  targetElementId: string | null = null;
+
+  scrollToElement() {
+    if (this.targetElementRef) {
+      this.targetElementRef.nativeElement.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+  }
 
   overlayRef: OverlayRef | null = null;
   @ViewChild(CdkPortal) portal!: CdkPortal;
+  @ViewChild('banner') BannerComponent!: ElementRef;
+
+  //burger modal
   openModal(): void {
     const config = new OverlayConfig({
       positionStrategy: this.overlay
@@ -45,7 +68,20 @@ export class NavigationComponent implements OnInit {
   }
 
   nav: Nav[] = [];
+
+  //ngoninit
   ngOnInit() {
     this.nav = nav;
   }
+  scrollTo(id: string) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  }
+
+  //scroll service
 }

@@ -13,6 +13,7 @@ import Item, { abouts } from '../../../modals/item.modal';
   styleUrl: './about-me.component.scss',
 })
 export class AboutMeComponent implements OnInit {
+  id = 'aboutme';
   item: Item[] = [];
   about: abouts[] = [];
   ngOnInit(): void {
