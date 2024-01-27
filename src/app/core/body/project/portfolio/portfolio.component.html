@@ -2,14 +2,22 @@
   @for (portfolio of project; track $index) {
     <div class="pr">
       <a class="flex flex-col" href="">
-        <img [src]="portfolio.img" [alt]="portfolio.name" />
+        <img
+          [ngSrc]="portfolio.img"
+          width="600"
+          height="600"
+          [alt]="portfolio.name" />
         <div class="diteils flex flex-row items-center">
           <div class="info flex flex-col gap-4">
             <span>{{ portfolio.detail }} </span>
             <h4>{{ portfolio.name }}</h4>
           </div>
           <div class="absolute right-5 arrow flex justify-center items-center">
-            <img src="./assets/img/svg/arrow-right.svg" alt="right icon" />
+            <img
+              ngSrc="./assets/img/svg/arrow-right.svg"
+              width="30"
+              height="30"
+              alt="right icon" />
           </div>
         </div>
       </a>
