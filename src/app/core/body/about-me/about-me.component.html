@@ -39,16 +39,21 @@
       <div>
         <div class="inp">My Mission</div>
         <p>
-          s a digital designer, I specialize in creating unique visual
-          identities for digital products. I believe that a catchy design starts
-          with common values, open communication, and respect for your audience.
-          Capitalize on low hanging fruit to identify a ballpark value added
-          activity
+          I am an accomplished Frontend Developer known for my expertise in
+          Angular and related technologies. Complementing my practical
+          experience is my educational background, having completed the Frontend
+          Angular Bootcamp at TBC Academy in 2022. This not only equipped me
+          with theoretical knowledge but also provided hands-on experience in
+          developing projects using Angular, TypeScript, and related
+          technologies.
         </p>
         <p>
-          Beta test survival. Phosfluorescently engage worldwide methodologies
-          Web-enabled technology. Interactively coordinate proactive commerce
-          via process-centric "outside the box" thinking. Completely
+          I am committed to optimizing website performance through code
+          optimization, implementing lazy loading, and employing asynchronous
+          operations. My proficiency extends to integrating RESTful APIs and web
+          services to fetch and display dynamic content. I excel in debugging
+          and resolving complex frontend issues, ensuring the delivery of
+          high-quality and bug-free code.
         </p>
       </div>
     </div>
@@ -58,15 +63,16 @@
         @for (item of item; track $index) {
           <li
             [matTooltip]="item.name"
-            class="flex flex-col justify-center items-center gap-1">
+            class="flex flex-col justify-center items-center gap-1"
+          >
             <span class="flex justify-center items-center">
               <img
                 [ngSrc]="item.imageUrl"
                 width="60"
                 height="60"
-                [alt]="item.name" />
+                [alt]="item.name"
+              />
             </span>
-            <!-- <p>{{ item.name }}</p> -->
           </li>
         }
       </ul>
