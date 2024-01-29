@@ -35,12 +35,18 @@
           h4 {
             font-size: 25px;
             margin: 0;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
           }
           img {
             width: 40px !important;
             height: 40px !important;
             animation: rotate 15s linear infinite;
             margin-left: auto;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
           }
         }
       }
@@ -75,12 +81,18 @@
           h4 {
             font-size: 25px;
             margin: 0;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
           }
           img {
             width: 40px !important;
             height: 40px !important;
             animation: rotate-reverse 15s linear infinite;
             margin-left: auto;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
           }
         }
       }
@@ -119,23 +131,31 @@
   }
 
   .amb {
-    .inp {
-      max-width: 600px;
-      height: 70px;
-      border: 1px solid rgba(89, 89, 89, 0.8);
-      line-height: 70px;
-      font-size: 20px;
-      font-family: "Lexend", sans-serif;
-      color: #261d48;
-      padding: 0 30px;
-      transition: 0.4s;
-      margin-bottom: 30px;
-      transition: all 0.3s ease-in;
+    .int {
+      // flex: 1 1 auto;
+      width: 100%;
 
-      &:hover {
-        border-radius: 50px 20px / 10px 40px;
-        border: 2px solid #a555e6;
-        transform: translateY(-10px);
+      .inp {
+        // width: 100% / 2;
+        height: 70px;
+        border: 1px solid rgba(89, 89, 89, 0.8);
+        line-height: 70px;
+        font-size: 20px;
+        font-family: "Lexend", sans-serif;
+        color: #261d48;
+        padding: 0 30px;
+        transition: 0.4s;
+        margin-bottom: 30px;
+        transition: all 0.3s ease-in;
+
+        &:hover {
+          border-radius: 50px 20px / 10px 40px;
+          border: 2px solid #a555e6;
+          transform: translateY(-10px);
+        }
+      }
+      p {
+        padding: 20px 30px;
       }
     }
     ul {
@@ -227,7 +247,6 @@
       width: 110%;
       transform: rotate(4deg);
       .mmd {
-        animation: animation-right 20s linear infinite;
         h4 {
           font-size: 20px;
           margin: 0;
@@ -240,7 +259,6 @@
     }
     .amd {
       .rns {
-        animation: animation-left 20s linear infinite;
         h4 {
           font-size: 20px;
         }
@@ -266,9 +284,6 @@
     .amb {
       flex-direction: column;
       padding: 0 10px;
-
-      .int {
-      }
       ul {
         gap: 20px;
 
@@ -294,16 +309,6 @@
 @media screen and (min-width: 451px) and (max-width: 1100px) {
   .moving {
     height: 80px !important;
-    .lns {
-      .mmd {
-        animation: animation-right 20s linear infinite;
-      }
-    }
-    .amb {
-      .rns {
-        animation: animation-left 20s linear infinite;
-      }
-    }
   }
   .bg {
     width: 100vw;

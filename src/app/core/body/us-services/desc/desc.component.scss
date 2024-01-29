@@ -16,6 +16,9 @@
         transform: translateY(52px);
         transition: all 0.5s ease-in-out;
         display: flex;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
       }
       p {
         // display: flex;
@@ -24,6 +27,9 @@
         margin-top: 20px;
         transition: all 1s;
         transform: translateY(-50px);
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
       }
     }
     .img {
