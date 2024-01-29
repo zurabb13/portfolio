@@ -11,6 +11,7 @@
     h3 {
       color: #595959;
     }
+    
     span {
       color: #a555e6;
     }
@@ -56,3 +57,21 @@
     }
   }
 }
+.typewriter {
+  overflow: hidden; 
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation: typing 8s linear infinite;
+  transform:translateY(0)
+}
+
+@keyframes typing {
+  from { 
+    width: 0;
+    color: rgb(0, 0, 0); 
+ }
+  to { 
+    width: 50%; 
+  color: rgb(25, 154, 75);}
+}
+
