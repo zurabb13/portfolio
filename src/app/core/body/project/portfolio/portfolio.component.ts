@@ -13,22 +13,23 @@ export class PortfolioComponent {
     {
       img: "assets/img/png/services/ad.jpg",
       detail: "branding",
-      name: "Say Coffee",
+      name: "E-Commerce",
     },
     {
       img: "assets/img/png/services/ad.jpg",
       detail: "branding",
-      name: "Say Coffee",
+      name: "Blog Platform",
     },
     {
       img: "assets/img/png/services/ad.jpg",
       detail: "branding",
-      name: "Say Coffee",
+      name: "Job Board",
     },
     {
       img: "assets/img/png/services/ad.jpg",
       detail: "branding",
-      name: "Say Coffee",
+      name: "Airbnb",
     },
   ];
+  comming = "coming soon"
 }

@@ -18,12 +18,6 @@ export const items: Item[] = [
   { name: "NodeJS", url: "", imageUrl: "./assets/img/svg/logo/nodejs.svg" },
   { name: "NestJS", url: "", imageUrl: "./assets/img/svg/logo/nestjs.svg" },
   { name: "MongoDB", url: "", imageUrl: "./assets/img/svg/logo/mongodb.svg" },
-  {
-    name: "Postgres",
-    url: "",
-    imageUrl: "./assets/img/svg/logo/postgresql.svg",
-  },
-  { name: "Docker", url: "", imageUrl: "./assets/img/svg/logo/docker.svg" },
   { name: "Html", url: "", imageUrl: "./assets/img/svg/logo/html.svg" },
   { name: "Css", url: "", imageUrl: "./assets/img/svg/logo/css.svg" },
   { name: "Scss", url: "", imageUrl: "./assets/img/svg/logo/scss.svg" },

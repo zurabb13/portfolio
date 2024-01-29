@@ -11,13 +11,15 @@
       <ul>
         @for (cont of contact; track $index) {
           <li class="flex flex-row gap-5">
-            <div class="br">
-              <img
+            <a [href]="cont.href" target="_blank">
+              <div class="br">
+                <img
                 [ngSrc]="cont.img"
                 width="30"
                 height="30"
                 [alt]="cont.type" />
-            </div>
+              </div>
+            </a>
             <div class="flex flex-col gap-5">
               <span>{{ cont.type }} </span>
               <h5>{{ cont.details }}</h5>

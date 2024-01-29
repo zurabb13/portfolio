@@ -1,41 +1,13 @@
 <div class="flex items-center flex-col gap-7 about">
   <ul class="flex justify-center items-center flex-col gap-3">
-    <li>
-      <a href="">
-        <img
-          ngSrc="./assets/img/svg/icons/facebook.svg"
-          width="14"
-          height="15"
-          alt="facebook" />
-      </a>
-    </li>
-    <li>
-      <a href=""
-        ><img
-          ngSrc="./assets/img/svg/icons/github.svg"
-          width="14"
-          height="14"
-          alt="github" />
-      </a>
-    </li>
-    <li>
-      <a href=""
-        ><img
-          ngSrc="./assets/img/svg/icons/linkedin.svg"
-          width="14"
-          height="14"
-          alt="linkedin" />
-      </a>
-    </li>
-    <li>
-      <a href=""
-        ><img
-          ngSrc="./assets/img/svg/icons/twitter.svg"
-          width="14"
-          height="14"
-          alt="X" />
-      </a>
-    </li>
+    @for (item of info; track $index) {
+      <li>
+      <a [href]="item.url" target="_blank">
+          <img [ngSrc]="item.img" width="14" height="15" [alt]="item.title">
+        </a>
+            </li>
+
+      }
   </ul>
   <span class="">Follow me</span>
 </div>

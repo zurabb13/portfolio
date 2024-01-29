@@ -1,6 +1,7 @@
 <div class="portfolio flex gap-5 flex-wrap">
   @for (portfolio of project; track $index) {
     <div class="pr">
+      <div class="coming"><span>{{comming}} </span></div>
       <a class="flex flex-col" href="">
         <img
           [ngSrc]="portfolio.img"

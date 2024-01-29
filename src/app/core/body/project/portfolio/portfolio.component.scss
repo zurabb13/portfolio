@@ -5,7 +5,26 @@
     height: 762px;
     position: relative;
     overflow: hidden;
-
+    .coming{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 4;
+      width: 100%;
+      height: 80px;
+      background-color: #1c1c1ca1;
+      transition: all .3s ease-in-out;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      opacity: 0;
+      span{
+          color: #4dffaf;
+          font-size: 40px;
+          transition:  all .3s ease-in-out;
+      }
+    }
     a {
       z-index: 2;
       width: 100%;
@@ -58,6 +77,13 @@
       margin-top: 60px;
     }
     &:hover {
+      .coming{
+       
+        background-color: #1c1c1cd8;
+        opacity: 1;  
+        height: 110px;
+        
+      }
       a {
         img {
           transform: scale(1.05);
