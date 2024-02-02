@@ -10,7 +10,7 @@ import Item, { abouts } from "../../../modals/item.modal";
   standalone: true,
   imports: [NgFor, MatTooltipModule, NgOptimizedImage],
   templateUrl: "./about-me.component.html",
-  styleUrl: "./about-me.component.scss",
+  styleUrl: "./about-me.component.scss"
 })
 export class AboutMeComponent implements OnInit {
   id = "aboutme";

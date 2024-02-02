@@ -6,6 +6,8 @@
       font-weight: 500;
       font-size: 90px;
       line-height: 108px;
+      --animate-duration: 1.5s;
+      --animate-delay: 0.9s;
       text-align: center;
     }
     h3 {
@@ -21,6 +23,8 @@
       font-size: 20px;
       display: block;
       margin-bottom: 40px;
+      --animate-duration: 1.5s;
+      --animate-delay: 0.9s;
     }
   }
 }
@@ -74,4 +78,8 @@
     width: 100%;
     color: rgb(25, 154, 75);
   }
+}
+
+.fl {
+  border: 1px solid red;
 }

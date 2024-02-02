@@ -1,13 +1,14 @@
-<div class="flex items-center flex-col gap-7 about">
+<div
+  class="flex items-center flex-col gap-7 about animate__animated animate__rubberBand animate__repeat-2"
+>
   <ul class="flex justify-center items-center flex-col gap-3">
     @for (item of info; track $index) {
       <li>
-      <a [href]="item.url" target="_blank">
-          <img [ngSrc]="item.img" width="14" height="15" [alt]="item.title">
+        <a [href]="item.url" target="_blank">
+          <img [ngSrc]="item.img" width="14" height="15" [alt]="item.title" />
         </a>
-            </li>
-
-      }
+      </li>
+    }
   </ul>
   <span class="">Follow me</span>
 </div>

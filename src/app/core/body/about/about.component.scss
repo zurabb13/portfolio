@@ -2,13 +2,15 @@ div {
   position: absolute;
   left: 80px;
   top: 113px;
+  --animate-duration: 3s;
+  --animate-delay: 0.9s;
   span {
     margin-top: 50px;
     position: relative;
     transform: rotate(-90deg);
     transition: font-weight 0.1s ease-in-out;
     &::before {
-      content: '';
+      content: "";
       display: flex;
       justify-content: center;
       align-items: center;
