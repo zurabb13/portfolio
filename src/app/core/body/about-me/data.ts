@@ -5,12 +5,12 @@ export const items: Item[] = [
   {
     name: "Typescript",
     url: "",
-    imageUrl: "./assets/img/svg/logo/typescript.svg",
+    imageUrl: "./assets/img/svg/logo/typescript.svg"
   },
   {
     name: "Javascript",
     url: "",
-    imageUrl: "./assets/img/svg/logo/javascript.svg",
+    imageUrl: "./assets/img/svg/logo/javascript.svg"
   },
   { name: "React", url: "", imageUrl: "./assets/img/svg/logo/react.svg" },
   { name: "RXJS", url: "", imageUrl: "./assets/img/svg/logo/rxjs.svg" },
@@ -25,12 +25,12 @@ export const items: Item[] = [
   {
     name: "Angular Material",
     url: "",
-    imageUrl: "./assets/img/svg/logo/angular-material.svg",
+    imageUrl: "./assets/img/svg/logo/angular-material.svg"
   },
   {
     name: "Tailwind",
     url: "",
-    imageUrl: "./assets/img/svg/logo/tailwind.svg",
+    imageUrl: "./assets/img/svg/logo/tailwind.svg"
   },
   { name: "Primeng", url: "", imageUrl: "./assets/img/svg/logo/primeng.svg" },
   { name: "WebPack", url: "", imageUrl: "./assets/img/svg/logo/webpack.svg" },
@@ -42,139 +42,140 @@ export const items: Item[] = [
   { name: "Npm", url: "", imageUrl: "./assets/img/svg/logo/npm.svg" },
   { name: "Yarn", url: "", imageUrl: "./assets/img/svg/logo/yarn.svg" },
   { name: "NX", url: "", imageUrl: "./assets/img/svg/logo/nx.svg" },
+  { name: "Vercel", url: "", imageUrl: "./assets/img/svg/logo/vercel.jpg" },
 
   {
     name: "WebStorm",
     url: "",
-    imageUrl: "./assets/img/svg/logo/webstorm.svg",
+    imageUrl: "./assets/img/svg/logo/webstorm.svg"
   },
   { name: "Trello", url: "", imageUrl: "./assets/img/svg/logo/trello.svg" },
   { name: "Jira", url: "", imageUrl: "./assets/img/svg/logo/jira.svg" },
 
-  { name: "Chart", url: "", imageUrl: "./assets/img/svg/logo/chart.svg" },
+  { name: "Chart", url: "", imageUrl: "./assets/img/svg/logo/chart.svg" }
 ];
 
 export const about: abouts[] = [
   {
     name: "Frontend Developer",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "UI/UX Design",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "E-Commerce",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Responsive Design",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Version Control",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Version Control",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Frontend Developer",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "UI/UX Design",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "E-Commerce",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Responsive Design",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Version Control",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Version Control",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Frontend Developer",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "UI/UX Design",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "E-Commerce",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Responsive Design",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Version Control",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Version Control",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Frontend Developer",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "UI/UX Design",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "E-Commerce",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Responsive Design",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Version Control",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
+    img2: "./assets/img/svg/portal-2.svg"
   },
   {
     name: "Version Control",
     img: "./assets/img/svg/portal-1.svg",
-    img2: "./assets/img/svg/portal-2.svg",
-  },
+    img2: "./assets/img/svg/portal-2.svg"
+  }
 ];
 
 // export const contact implements about

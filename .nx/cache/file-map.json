@@ -84,7 +84,7 @@
       },
       {
         "file": ".prettierrc",
-        "hash": "9706336459602370760"
+        "hash": "14114992537479493532"
       },
       {
         "file": ".vscode/extensions.json",
@@ -108,11 +108,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "2331277883305082743"
+        "hash": "7206755798846728999"
       },
       {
         "file": "package.json",
-        "hash": "11199390157168630659"
+        "hash": "10500909497250534880"
       },
       {
         "file": "server.ts",
@@ -148,11 +148,11 @@
       },
       {
         "file": "src/app/core/body/about-me/about-me.component.html",
-        "hash": "2859460184228068322"
+        "hash": "4992198034916547475"
       },
       {
         "file": "src/app/core/body/about-me/about-me.component.scss",
-        "hash": "2693333783926110334"
+        "hash": "15399678107670943032"
       },
       {
         "file": "src/app/core/body/about-me/about-me.component.spec.ts",
@@ -160,19 +160,19 @@
       },
       {
         "file": "src/app/core/body/about-me/about-me.component.ts",
-        "hash": "7023153146955045544"
+        "hash": "16388991048229977463"
       },
       {
         "file": "src/app/core/body/about-me/data.ts",
-        "hash": "15184284897982157103"
+        "hash": "470567694258931451"
       },
       {
         "file": "src/app/core/body/about/about.component.html",
-        "hash": "13594761517189992409"
+        "hash": "7250946024316795242"
       },
       {
         "file": "src/app/core/body/about/about.component.scss",
-        "hash": "15971791812567444086"
+        "hash": "5731055636724945522"
       },
       {
         "file": "src/app/core/body/about/about.component.spec.ts",
@@ -184,11 +184,11 @@
       },
       {
         "file": "src/app/core/body/banner/banner.component.html",
-        "hash": "17336902179214166240"
+        "hash": "16955140417548154550"
       },
       {
         "file": "src/app/core/body/banner/banner.component.scss",
-        "hash": "11599851620247441926"
+        "hash": "15904201487963013776"
       },
       {
         "file": "src/app/core/body/banner/banner.component.spec.ts",
@@ -196,7 +196,7 @@
       },
       {
         "file": "src/app/core/body/banner/banner.component.ts",
-        "hash": "14109000060791321560"
+        "hash": "14569132242884558898"
       },
       {
         "file": "src/app/core/body/body.component.html",
@@ -220,7 +220,7 @@
       },
       {
         "file": "src/app/core/body/contact/contact.component.scss",
-        "hash": "14490892863754233593"
+        "hash": "11103583102713101271"
       },
       {
         "file": "src/app/core/body/contact/contact.component.ts",
@@ -276,7 +276,7 @@
       },
       {
         "file": "src/app/core/body/us-services/desc/desc.component.scss",
-        "hash": "9496888065048193850"
+        "hash": "2642552665017395146"
       },
       {
         "file": "src/app/core/body/us-services/desc/desc.component.ts",
@@ -364,7 +364,7 @@
       },
       {
         "file": "src/app/shared/footer/footer.component.scss",
-        "hash": "14080106320828631447"
+        "hash": "10029184671483407448"
       },
       {
         "file": "src/app/shared/footer/footer.component.ts",
@@ -372,7 +372,7 @@
       },
       {
         "file": "src/app/shared/info.ts",
-        "hash": "10375555342552384277"
+        "hash": "14336674353699820293"
       },
       {
         "file": "src/app/shared/list/list.component.html",
@@ -639,6 +639,10 @@
         "hash": "11760677968935200535"
       },
       {
+        "file": "src/assets/img/svg/logo/vercel.jpg",
+        "hash": "17632741688193608580"
+      },
+      {
         "file": "src/assets/img/svg/logo/webpack.svg",
         "hash": "17560167108604891168"
       },
@@ -712,7 +716,7 @@
       },
       {
         "file": "src/index.html",
-        "hash": "7096600707873253947"
+        "hash": "12831082805371519102"
       },
       {
         "file": "src/index.ts",
