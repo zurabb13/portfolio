@@ -5,24 +5,24 @@
     height: 762px;
     position: relative;
     overflow: hidden;
-    .coming{
+    .coming {
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%,-50%);
+      transform: translate(-50%, -50%);
       z-index: 4;
       width: 100%;
       height: 80px;
       background-color: #1c1c1ca1;
-      transition: all .3s ease-in-out;
+      transition: all 0.3s ease-in-out;
       display: flex;
-      justify-content:center;
+      justify-content: center;
       align-items: center;
       opacity: 0;
-      span{
-          color: #4dffaf;
-          font-size: 40px;
-          transition:  all .3s ease-in-out;
+      span {
+        color: #4dffaf;
+        font-size: 40px;
+        transition: all 0.3s ease-in-out;
       }
     }
     a {
@@ -37,7 +37,11 @@
         height: 600px;
         object-fit: cover;
         z-index: 2;
-        transition: all 0.4s ease-in-out;
+        transition: object-position 6s ease-in-out;
+        object-position: top;
+        &:hover {
+          object-position: 0 100%;
+        }
       }
       .diteils {
         position: relative;
@@ -77,12 +81,10 @@
       margin-top: 60px;
     }
     &:hover {
-      .coming{
-       
+      .coming {
         background-color: #1c1c1cd8;
-        opacity: 1;  
+        opacity: 1;
         height: 110px;
-        
       }
       a {
         img {
@@ -154,6 +156,9 @@
         img {
           width: 100%;
           height: 345px;
+          object-fit: contain;
+          object-position: 0px 0px;
+          transition: object-position 6s ease;
         }
         .diteils {
           h4 {

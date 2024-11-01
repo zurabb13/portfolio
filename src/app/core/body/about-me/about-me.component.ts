@@ -5,6 +5,7 @@ import { NgOptimizedImage } from "@angular/common";
 
 import { about, items } from "./data";
 import Item, { abouts } from "../../../modals/item.modal";
+import { Info } from "../../../shared/info";
 @Component({
   selector: "app-about-me",
   standalone: true,
@@ -20,4 +21,5 @@ export class AboutMeComponent implements OnInit {
     this.item = items;
     this.about = about;
   }
+  info = Info;
 }

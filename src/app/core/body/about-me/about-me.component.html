@@ -2,26 +2,26 @@
   <div class="lns">
     <div class="mmd">
       @for (item of about; track $index) {
-        <ul>
-          <li>
-            <h4>{{ item.name }}</h4>
-            <img [ngSrc]="item.img" width="40" height="40" alt="logo1" />
-          </li>
-        </ul>
-        <!-- <h4>{{ item.name }}</h4> -->
-        <!-- <button matTooltip="Info about the action">acction</button> -->
+      <ul>
+        <li>
+          <h4>{{ item.name }}</h4>
+          <img [ngSrc]="item.img" width="40" height="40" alt="logo1" />
+        </li>
+      </ul>
+      <!-- <h4>{{ item.name }}</h4> -->
+      <!-- <button matTooltip="Info about the action">acction</button> -->
       }
     </div>
   </div>
   <div class="amd">
     <div class="rns">
       @for (item of about; track $index) {
-        <ul>
-          <li>
-            <h4>{{ item.name }}</h4>
-            <img [ngSrc]="item.img2" width="40" height="40" alt="logo2" />
-          </li>
-        </ul>
+      <ul>
+        <li>
+          <h4>{{ item.name }}</h4>
+          <img [ngSrc]="item.img2" width="40" height="40" alt="logo2" />
+        </li>
+      </ul>
       }
     </div>
   </div>
@@ -33,47 +33,47 @@
       I've been<span> Frontend developer</span> since
       <span class="color">2019</span>
     </h2>
+    <div>
+      <ul class="flex social gap-3">
+        @for (infos of info; track $index) {
+        <li class="flex justify-center items-center">
+          <a [href]="infos.url" target="_blank">
+            <img [ngSrc]="infos.img" width="20" height="20" [alt]="infos.title" />
+          </a>
+        </li>
+        }
+      </ul>
+    </div>
   </div>
   <div class="amb flex flex-row gap-3 justify-center">
     <div class="flex gap-5 int">
       <div>
         <div class="inp">My Mission</div>
-        <p>
-          I am an accomplished Frontend Developer known for my expertise in
-          Angular and related technologies. Complementing my practical
-          experience is my educational background, having completed the Frontend
-          Angular Bootcamp at TBC Academy in 2022. This not only equipped me
-          with theoretical knowledge but also provided hands-on experience in
-          developing projects using Angular, TypeScript, and related
-          technologies.
-        </p>
-        <p>
-          I am committed to optimizing website performance through code
-          optimization, implementing lazy loading, and employing asynchronous
-          operations. My proficiency extends to integrating RESTful APIs and web
-          services to fetch and display dynamic content. I excel in debugging
-          and resolving complex frontend issues, ensuring the delivery of
-          high-quality and bug-free code.
-        </p>
+        <p> I am a results-driven Frontend Developer with a proven track record in building dynamic and scalable
+          applications
+          using Angular and modern technologies. My education at TBC x Academy’s Frontend Angular Bootcamp in 2021 has
+          equipped me
+          with robust theoretical knowledge and practical skills, allowing me to create powerful solutions like a CMS
+          for an
+          e-commerce website that leverages server-side rendering (SSR) for optimal performance and SEO. </p>
+        <p> I am dedicated to elevating website performance through advanced code optimization techniques, including
+          lazy
+          loading and asynchronous operations. My expertise includes seamlessly integrating RESTful APIs and web
+          services to
+          deliver dynamic, real-time content. I thrive in debugging complex frontend challenges, ensuring the delivery
+          of
+          high-quality, flawless code that exceeds client expectations and enhances user experience. </p>
       </div>
     </div>
     <div class="flex flex-col gap-4 int">
       <div class="inp">My Skill</div>
       <ul class="flex flex-wrap gap-5">
         @for (item of item; track $index) {
-          <li
-            [matTooltip]="item.name"
-            class="flex flex-col justify-center items-center gap-1"
-          >
-            <span class="flex justify-center items-center">
-              <img
-                [ngSrc]="item.imageUrl"
-                width="60"
-                height="60"
-                [alt]="item.name"
-              />
-            </span>
-          </li>
+        <li [matTooltip]="item.name" class="flex flex-col justify-center items-center gap-1">
+          <span class="flex justify-center items-center">
+            <img [ngSrc]="item.imageUrl" width="60" height="60" [alt]="item.name" />
+          </span>
+        </li>
         }
       </ul>
     </div>

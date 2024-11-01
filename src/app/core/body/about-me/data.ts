@@ -43,6 +43,7 @@ export const items: Item[] = [
   { name: "Yarn", url: "", imageUrl: "./assets/img/svg/logo/yarn.svg" },
   { name: "NX", url: "", imageUrl: "./assets/img/svg/logo/nx.svg" },
   { name: "Vercel", url: "", imageUrl: "./assets/img/svg/logo/vercel.jpg" },
+  { name: "cPanel", url: "", imageUrl: "./assets/img/svg/logo/cpanel.svg" },
 
   {
     name: "WebStorm",
