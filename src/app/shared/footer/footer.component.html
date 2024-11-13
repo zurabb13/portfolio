@@ -1,13 +1,9 @@
 <footer class="w-full h-80 pt-20 footer">
-  <div class="flex justify-center gap-9 w-auto mt-30 mb">
+  <!-- <div class="flex justify-center gap-9 w-auto mt-30 mb">
     <div class="dit">
       <ul class="flex flex-col gap-3 ul">
         <li>
-          <img
-            ngSrc="./assets/img/png/logo-white.png"
-            width="100"
-            height="30"
-            alt="logo" />
+          <img ngSrc="./assets/img/png/logo.svg" width="100" height="30" alt="logo" />
         </li>
         <li>
           <span>Follow Me</span>
@@ -15,15 +11,11 @@
       </ul>
       <ul class="flex social gap-3">
         @for (item of contact; track $index) {
-          <li class="flex justify-center items-center">
-            <a [href]="item.url" target="_blank">
-              <img
-                [ngSrc]="item.img"
-                width="20"
-                height="20"
-                [alt]="item.title" />
-            </a>
-          </li>
+        <li class="flex justify-center items-center">
+          <a [href]="item.url" target="_blank">
+            <img [ngSrc]="item.img" width="20" height="20" [alt]="item.title" />
+          </a>
+        </li>
         }
       </ul>
     </div>
@@ -55,13 +47,20 @@
     </div>
     <div class="quick-link">
       <h5>Newsletter</h5>
-      <span class="span"
-        >Subscribe to newsletter to get update tips & tutorial in your
-        inbox</span
-      >
+      <span class="span">Subscribe to newsletter to get update tips & tutorial in your
+        inbox</span>
       <input type="text" placeholder="enter your address" />
     </div>
-  </div>
+  </div> -->
+  <ul class="flex justify-center social gap-3">
+    @for (item of contact; track $index) {
+    <li class="flex justify-center items-center">
+      <a [href]="item.url" target="_blank">
+        <img [ngSrc]="item.img" width="20" height="20" [alt]="item.title" />
+      </a>
+    </li>
+    }
+  </ul>
   <div class="flex justify-center items-center copyright">
     <span>© Copyright {{ date | date: 'yyyy' }} by Baram</span>
   </div>

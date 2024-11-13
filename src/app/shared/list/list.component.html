@@ -1,18 +1,14 @@
 <div class="list">
   <div class="info">
     <div>
-      <img
-        ngSrc="./assets/img/png/logo-white.png"
-        width="100"
-        height="30"
-        alt="logo" />
+      <img ngSrc="./assets/img/png/logo.svg" width="100" height="30" alt="logo" />
     </div>
     <hr />
     <ul class="flex justify-center items-start flex-col gap-3">
       @for (item of burgerManu; track $index) {
-        <li>
-          <button (click)="scrollTo(item.router)" (keypress)="scrollTo(item.router)">{{ item.listName }}</button>
-        </li>
+      <li>
+        <button (click)="scrollTo(item.router)" (keypress)="scrollTo(item.router)">{{ item.listName }}</button>
+      </li>
       }
     </ul>
   </div>
