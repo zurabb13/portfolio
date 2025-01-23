@@ -18,12 +18,11 @@ export class PortfolioComponent {
       link: "https://nisa-two.vercel.app/home"
     },
     {
-      img: "assets/img/png/services/ad.jpg",
-      detail: "branding",
-      name: "Blog Platform",
-      comming: "coming soon",
-      done: false,
-      link: ""
+      img: "assets/img/png/services/resume.jpg",
+      detail: "RESUME",
+      name: "Personal Resume",
+      done: true,
+      link: "https://resume-three-bice.vercel.app/about"
     },
     {
       img: "assets/img/png/services/ad.jpg",
